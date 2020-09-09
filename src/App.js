@@ -1,14 +1,19 @@
 import React from "react";
-import logo from "./logo.svg";
+
+// Styling
 import "./App.scss";
+import Navigation from "./Components/Navigation";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <div className='App'>
+      <BrowserRouter>
+        <Navigation />
+      </BrowserRouter>
+
       <header className='App-header'>
         <h1>Grobund Fotografi</h1>
-
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
       </header>
     </div>
   );

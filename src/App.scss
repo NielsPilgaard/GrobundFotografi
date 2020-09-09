@@ -1,12 +1,9 @@
+@import "~bootstrap/scss/bootstrap";
+
 $backgroundColor: #2c4d3b;
 
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
 .App-header {
@@ -18,8 +15,4 @@ $backgroundColor: #2c4d3b;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: rgb(255, 255, 255);
-}
-
-.App-link {
-  color: #61dafb;
 }

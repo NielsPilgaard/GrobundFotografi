@@ -2,9 +2,9 @@ import React from "react";
 
 const Products = () => {
   return (
-    <div className='App'>
-      <h1 className='App-header'>Produkter</h1>
-    </div>
+    <header className='App-header'>
+      <h1>Produkter</h1>
+    </header>
   );
 };
 

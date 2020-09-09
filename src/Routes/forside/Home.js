@@ -2,9 +2,9 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className='App'>
-      <h1 className='App-header'>Forside</h1>
-    </div>
+    <header className='App-header'>
+      <h1>Grobund Fotografi</h1>
+    </header>
   );
 };
 

@@ -11,10 +11,6 @@ function App() {
       <BrowserRouter>
         <Navigation />
       </BrowserRouter>
-
-      <header className='App-header'>
-        <h1>Grobund Fotografi</h1>
-      </header>
     </div>
   );
 }

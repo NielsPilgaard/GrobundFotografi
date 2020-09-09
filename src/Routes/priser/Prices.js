@@ -2,9 +2,9 @@ import React from "react";
 
 const Prices = () => {
   return (
-    <div className='App'>
-      <h1 className='App-header'>Priser</h1>
-    </div>
+    <header className='App-header'>
+      <h1>Priser</h1>
+    </header>
   );
 };
 

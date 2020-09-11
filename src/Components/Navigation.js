@@ -23,7 +23,7 @@ const Navigation = () => {
             <Nav.Link href='/referencer'>Referencer</Nav.Link>
             <Nav.Link href='/kontakt'>Kontakt</Nav.Link>
           </Nav>
-          <Button variant='outline-success'>Kontakt!</Button>
+          <Button variant='outline-warning '>Kontakt!</Button>
         </Navbar.Collapse>
       </Navbar>
       <Switch>

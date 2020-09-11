@@ -22,36 +22,14 @@ code {
 }
 
 .App-header {
-  background-color: $backgroundColor;
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: colfumn;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: rgb(255, 255, 255);
-}
-
-.pace {
-  -webkit-pointer-events: none;
-  pointer-events: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-}
-
-.pace-inactive {
-  display: none;
-}
-
-.pace .pace-progress {
-  background-color: rgba(0, 0, 0, 0.19999999999999996);
-  position: fixed;
-  z-index: -1;
-  top: 0;
-  right: 100%;
-  bottom: 0;
-  width: 100%;
+  margin-top: 10%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -64,4 +42,8 @@ code {
   .contact-form {
     margin-right: 3rem;
   }
+}
+
+.navbar-bottom {
+  height: 2.5rem;
 }

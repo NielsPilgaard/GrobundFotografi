@@ -66,7 +66,7 @@ export default class ContactForm extends React.Component {
   };
   render() {
     return (
-      <div className='card card-default col-lg-3 col-md-5 col-sm-6 mt-5 p-3 float-right'>
+      <div className='card card-default col-lg-3 col-md-5 col-sm-6 mt-5 p-3 float-right contact-form'>
         <Form onSubmit={this.handleSubmit}>
           <Form.Row>
             <Form.Label className='text-success'>

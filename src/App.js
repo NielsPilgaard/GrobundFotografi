@@ -3,7 +3,7 @@ import Navigation from "./Components/Navigation";
 import { BrowserRouter } from "react-router-dom";
 
 // Styling
-import "./App.scss";
+import "./index.scss";
 
 function App() {
   return (

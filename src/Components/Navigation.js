@@ -27,12 +27,12 @@ const Navigation = () => {
         </Navbar.Collapse>
       </Navbar>
       <Switch>
-        <Route component={Home} path='/' exact />
-        <Route component={About} path='/om-grobund' exact />
-        <Route component={Products} path='/produkter' exact />
-        <Route component={Prices} path='/priser' exact />
-        <Route component={References} path='/referencer' exact />
-        <Route component={Contact} path='/kontakt' exact />
+        <Route component={Home} exact path='/' />
+        <Route component={About} path='/om-grobund' />
+        <Route component={Products} path='/produkter' />
+        <Route component={Prices} path='/priser' />
+        <Route component={References} path='/referencer' />
+        <Route component={Contact} path='/kontakt' />
       </Switch>
     </div>
   );

@@ -1,9 +1,9 @@
 import React from "react";
+import Navigation from "./Components/Navigation";
+import { BrowserRouter } from "react-router-dom";
 
 // Styling
 import "./App.scss";
-import Navigation from "./Components/Navigation";
-import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (

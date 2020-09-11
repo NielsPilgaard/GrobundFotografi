@@ -2,6 +2,10 @@
 
 $backgroundColor: #2c4d3b;
 
+body {
+  background-color: $backgroundColor;
+}
+
 .App {
   text-align: center;
 }

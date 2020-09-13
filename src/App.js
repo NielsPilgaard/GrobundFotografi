@@ -13,7 +13,7 @@ function App() {
         <Navigation />
       </BrowserRouter>
       ,
-      <Navbar className='navbar-bottom' sticky='bottom'>
+      <Navbar className='navbar-bottom' fixed='bottom'>
         <div className='d-inline-flex mx-auto mt-3'>
           <p>
             <span role='img' aria-label='Copyright' className='mr-1'>

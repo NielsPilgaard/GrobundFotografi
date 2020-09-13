@@ -21,9 +21,10 @@ const Navigation = () => {
             <Nav.Link href='/produkter'>Produkter</Nav.Link>
             <Nav.Link href='/priser'>Priser</Nav.Link>
             <Nav.Link href='/referencer'>Referencer</Nav.Link>
-            <Nav.Link href='/kontakt'>Kontakt</Nav.Link>
           </Nav>
-          <Button variant='outline-warning '>Kontakt!</Button>
+          <Button href='/kontakt' variant='outline-warning '>
+            Kontakt!
+          </Button>
         </Navbar.Collapse>
       </Navbar>
       <Switch>

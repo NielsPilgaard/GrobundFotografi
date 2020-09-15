@@ -4,10 +4,10 @@ import Button from "react-bootstrap/Button";
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import { useForm } from "react-hook-form";
-
-// Styles
-import "react-toastify/dist/ReactToastify.css";
 import { Card } from "react-bootstrap";
+
+// Styling
+import "react-toastify/dist/ReactToastify.css";
 
 export default function ContactForm() {
   const { register, handleSubmit, errors } = useForm();
@@ -18,6 +18,7 @@ export default function ContactForm() {
 
   return (
     <div>
+      ,
       <Card
         variant='dark'
         className='mt-5 mx-1 col-10 col-sm-10 col-md-10 col-lg-6 col-xl-4 p-3 float-left'
@@ -29,7 +30,6 @@ export default function ContactForm() {
           😊
         </span>
       </Card>
-
       <div className='card card-default col-10 col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-5 p-3 mx-1 contact-form float-right'>
         <Form onSubmit={handleSubmit(onSubmit)} id='contact-form'>
           <Form.Row>

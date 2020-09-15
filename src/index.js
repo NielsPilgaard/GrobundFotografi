@@ -1,5 +1,5 @@
 import React from "react";
-import { render } from "react-dom";
+import { hydrate, render } from "react-dom";
 import App from "./App.js";
 import * as serviceWorker from "./serviceWorker";
 
@@ -10,11 +10,11 @@ import "./index.scss";
 import { init } from "emailjs-com";
 init("user_85PaRF6pVpFdXE5A2cX6w");
 
-render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+const rootElement = document.getElementById("root");
+if (rootElement.hasChildNodes()) {
+  hydrate(<App />, rootElement);
+} else {
+  render(<App />, rootElement);
+}
 
 serviceWorker.register();

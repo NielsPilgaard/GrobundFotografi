@@ -1,30 +1,30 @@
 import React from "react";
-import Navigation from "./Components/Navigation";
-import { BrowserRouter } from "react-router-dom";
+import { Route, BrowserRouter } from "react-router-dom";
+import { Layout } from "./Components/Layout";
+import About from "./Routes/om-grobund/About";
+import Products from "./Routes/produkter/Products";
+import Prices from "./Routes/priser/Prices";
+import Contact from "./Routes/kontakt/Contact";
+import References from "./Routes/referencer/References";
+import Home from "./Routes/forside/Home";
 
-// Styling
-import "./index.scss";
-import { Navbar } from "react-bootstrap";
+const baseUrl = document.getElementsByTagName("base")[0].getAttribute("href");
 
-function App() {
-  return (
-    <div className='App'>
-      <BrowserRouter>
-        <Navigation />
-      </BrowserRouter>
-      ,
-      <Navbar className='navbar-bottom' fixed='bottom'>
-        <div className='d-inline-flex mx-auto mt-3'>
-          <p>
-            <span role='img' aria-label='Copyright' className='mr-1'>
-              ©
-            </span>
-            Grobund Fotografi 2020
-          </p>
-        </div>
-      </Navbar>
-    </div>
-  );
+export default class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <BrowserRouter basename={baseUrl}>
+          <Layout>
+            <Route component={Home} exact path='/' />
+            <Route component={About} path='/om-grobund' />
+            <Route component={Products} path='/produkter' />
+            <Route component={Prices} path='/priser' />
+            <Route component={References} path='/referencer' />
+            <Route component={Contact} path='/kontakt' />
+          </Layout>
+        </BrowserRouter>
+      </div>
+    );
+  }
 }
-
-export default App;

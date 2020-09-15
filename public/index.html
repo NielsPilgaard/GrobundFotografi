@@ -3,22 +3,35 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <base href="%PUBLIC_URL%/" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
-      name="Grobund Fotografi"
-      content="Grobund Fotografi - Stemnings & Naturfotograf"
+      name="description"
+      content="Stemnings-, Natur & Børnefotograf bosat på Djursland mellem Århus og Randers"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Grobund Fotografi</title>
   </head>
   <body>
-    <script src="/__/firebase/7.19.1/firebase-app.js"></script>
-    <script src="/__/firebase/7.19.1/firebase-analytics.js"></script>
-    <script src="/__/firebase/init.js"></script>
-
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>You should enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-analytics.js"></script>
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyBQTkMe9oaMVT2rwKDWh7i3aRbsE-2fmQI",
+        authDomain: "grobund-fotografi.firebaseapp.com",
+        databaseURL: "https://grobund-fotografi.firebaseio.com",
+        projectId: "grobund-fotografi",
+        storageBucket: "grobund-fotografi.appspot.com",
+        messagingSenderId: "922925216282",
+        appId: "1:922925216282:web:d2de76597f0024d52a97a3",
+        measurementId: "G-3TCCD671K4",
+      };
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
   </body>
 </html>

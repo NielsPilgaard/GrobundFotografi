@@ -1,0 +1,72 @@
+.contact {
+    display: grid;
+    grid-template-areas:
+        'contact-message-box nothing contact-form'
+        'contact-message-box nothing contact-form';
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.contact-message-box {
+    grid-area: contact-message-box;
+    width: 90%;
+    font-size: 24px;
+}
+
+.contact-form {
+    grid-area: contact-form;
+    width: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact {
+        margin-top: 0.5rem;
+        grid-template-areas:
+            'contact-message-box'
+            'contact-form';
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .contact-message-box {
+        width: 90%;
+        font-size: 24px;
+        padding: 1rem;
+    }
+
+    .contact-form {
+        width: 75%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .contact .form-label {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .contact {
+        margin-top: 2rem;
+        grid-template-areas:
+            'contact-message-box nothing contact-form'
+            'contact-message-box nothing contact-form';
+        grid-template-columns: 2fr 1fr 2fr;
+    }
+
+    .contact-message-box {
+        width: 90%;
+        font-size: 28px;
+        margin-top: 10rem;
+        margin-left: 2rem;
+        padding: 1.5rem;
+        padding-top: 0;
+    }
+
+    .contact-form {
+        margin-top: 2rem;
+        width: 60%;
+        text-align: center;
+        font-size: 28px;
+    }
+}

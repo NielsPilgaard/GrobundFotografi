@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar } from 'react-bootstrap';
 import { AiOutlineFacebook, AiOutlineInstagram } from 'react-icons/ai';
 import { IconContext } from 'react-icons';
+import './Footer.scss';
 
 const Footer = () => {
     return (

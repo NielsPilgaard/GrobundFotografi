@@ -1,0 +1,46 @@
+.home {
+    display: grid;
+}
+
+.welcome {
+    grid-area: welcome;
+    text-align: center;
+    font-size: 28px;
+}
+
+.carousel {
+    grid-area: carousel;
+    margin-left: 0 !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .home {
+        grid-template-areas:
+            'welcome'
+            'carousel';
+        grid-template-columns: 1fr;
+    }
+
+    .welcome {
+        padding: 1rem;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .home {
+        grid-template-areas: 'carousel welcome';
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .welcome {
+        margin: auto;
+    }
+    .carousel {
+        max-width: 70%;
+        margin-left: 0 !important;
+    }
+}
+
+.navbar-bottom {
+    display: none;
+}

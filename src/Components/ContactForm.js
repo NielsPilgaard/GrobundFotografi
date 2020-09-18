@@ -4,7 +4,6 @@ import Button from 'react-bootstrap/Button';
 import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
 import { useForm } from 'react-hook-form';
-import { Card } from 'react-bootstrap';
 
 // Styling
 import 'react-toastify/dist/ReactToastify.css';
@@ -17,19 +16,8 @@ export default function ContactForm() {
     };
 
     return (
-        <div className="p-5">
-            <Card variant="dark" className="col-md-5 col-lg-5 col-xl-5">
-                Hvis du har spørgsmål eller vil tage en snak om en eventuel fotosession hos Grobund Fotografi, så skriv
-                her. Jeg vender tilbage til dig hurtigst muligt!{' '}
-                <span role="img" aria-label="Smile Emoji">
-                    😊
-                </span>
-            </Card>
-            <Form
-                onSubmit={handleSubmit(onSubmit)}
-                id="contact-form"
-                className="offset-md-7 offset-lg-7 offset-xl-7 mt-5 p-3 contact-form"
-            >
+        <div className="contact-form">
+            <Form onSubmit={handleSubmit(onSubmit)} id="contact-form">
                 <Form.Row>
                     <Form.Label className="text-success">Hvad kan jeg gøre for dig?</Form.Label>
                 </Form.Row>
@@ -70,7 +58,7 @@ export default function ContactForm() {
                     />
                 </Form.Row>
 
-                <Button tabIndex="4" variant="outline-success" className="mt-3" type="submit">
+                <Button tabIndex="4" size="lg" variant="success" className="mt-3" type="submit">
                     Send
                 </Button>
             </Form>

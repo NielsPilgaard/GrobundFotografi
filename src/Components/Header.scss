@@ -1,0 +1,24 @@
+@import './../index.scss';
+$backgroundColor: #2c4d3b;
+
+.navbar-top {
+    color: rgb(255, 255, 255);
+    border-bottom: #2c4d3b 1px solid;
+}
+
+.navbar-top a:not(.btn) {
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar-top a:hover:not(.btn) {
+    border-bottom: 3px solid lighten($backgroundColor, 30);
+}
+
+.navbar-top a.active:not(.btn) {
+    border-bottom: 3px solid lighten($backgroundColor, 20);
+}
+
+.navbar-collapse {
+    align-items: left;
+}

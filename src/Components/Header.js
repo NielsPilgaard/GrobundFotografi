@@ -18,7 +18,7 @@ export default class Header extends React.Component {
     render() {
         return (
             <div>
-                <Navbar variant="dark" expand="lg" className="navbar-top justify-content-left">
+                <Navbar expand="lg" className="navbar-top justify-content-left">
                     <Navbar.Brand className={this.state.homepage.classNames} href={this.state.homepage.href}>
                         {this.state.homepage.name}
                     </Navbar.Brand>
@@ -36,7 +36,7 @@ export default class Header extends React.Component {
                                 <NavDropdown.Item href="/galleri-natur">Natur</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
-                        <Button href="/kontakt" variant="outline-warning ml-auto">
+                        <Button href="/kontakt" variant="outline-success ml-auto">
                             Kontakt!
                         </Button>
                     </Navbar.Collapse>

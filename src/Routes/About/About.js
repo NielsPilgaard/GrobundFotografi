@@ -9,7 +9,7 @@ export default class About extends React.Component {
                     title="Grobund Fotografi - Om"
                     description="Hvad Grobund Fotografi står for, og hvordan det hele startede."
                 />
-                <div className="text-white p-5">
+                <div className="p-5">
                     <div className="col-lg-6 col-xl-6 mb-5">
                         <h2>Om Grobund</h2>
                         <hr className="bg-white"></hr>

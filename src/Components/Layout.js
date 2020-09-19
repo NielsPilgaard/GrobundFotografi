@@ -10,7 +10,7 @@ export class Layout extends Component {
             <div className="App">
                 <Header />
                 {this.props.children}
-                {<Footer />}
+                <Footer />
             </div>
         );
     }

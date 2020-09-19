@@ -1,5 +1,4 @@
 @import '~bootstrap/scss/bootstrap';
-$backgroundColor: #2c4d3b;
 
 body {
     margin: 0;
@@ -8,14 +7,8 @@ body {
         'Droid Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: radial-gradient(
-        circle,
-        $backgroundColor 0%,
-        darken($backgroundColor, 6) 33%,
-        darken($backgroundColor, 8) 66%,
-        darken($backgroundColor, 10) 99%
-    );
-    color: white;
+    background: white;
+    color: black;
 }
 
 .flex-breakline {

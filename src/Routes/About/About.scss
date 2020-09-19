@@ -1,4 +1,4 @@
-.contact {
+.about {
     display: grid;
     grid-template-areas:
         'contact-message-box nothing contact-form'
@@ -7,15 +7,28 @@
     justify-items: center;
 }
 
-.contact-message-box {
-    grid-area: contact-message-box;
+.om-grobund {
+    grid-area: om-grobund;
     width: 90%;
     font-size: 24px;
 }
 
-.contact-form {
-    grid-area: contact-form;
-    width: 60%;
+.livsrejser {
+    grid-area: om-grobund;
+    width: 90%;
+    font-size: 24px;
+}
+
+.naturen {
+    grid-area: om-grobund;
+    width: 90%;
+    font-size: 24px;
+}
+
+.hvorfor-grobund {
+    grid-area: om-grobund;
+    width: 90%;
+    font-size: 24px;
 }
 
 @media only screen and (max-width: 575px) {

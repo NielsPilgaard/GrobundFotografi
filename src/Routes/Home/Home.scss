@@ -13,7 +13,7 @@
     margin-left: 0 !important;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 575px) {
     .home {
         grid-template-areas:
             'welcome'
@@ -26,7 +26,7 @@
     }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 576px) {
     .home {
         grid-template-areas: 'carousel welcome';
         grid-template-columns: 1fr 1fr;
@@ -39,8 +39,4 @@
         max-width: 70%;
         margin-left: 0 !important;
     }
-}
-
-.navbar-bottom {
-    display: none;
 }

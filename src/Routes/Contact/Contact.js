@@ -9,7 +9,7 @@ const Contact = () => {
     return (
         <main className="contact">
             <div className="contact-message-box text-center">
-                Hvis du har spørgsmål eller vil tage en snak så skriv her - Jeg vender tilbage til dig hurtigst muligt!
+                Hvis du har spørgsmål eller vil have en snak så skriv her - Jeg vender tilbage til dig hurtigst muligt!
                 <span role="img" aria-label="Smile Emoji">
                     😊
                 </span>

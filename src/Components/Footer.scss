@@ -1,14 +1,27 @@
 .navbar-bottom {
-    border-top: #2c4d3b 1px solid;
     height: 3rem;
+    color: black;
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 576px) {
     .navbar-bottom {
         position: fixed !important;
         right: 0;
         bottom: 0;
         left: 0;
         z-index: 1030;
+    }
+    .logo-container {
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .navbar-bottom {
+        border-top: #2c4d3b 1px solid;
+    }
+    .logo-container {
+        margin-left: auto;
+        margin-right: auto;
     }
 }

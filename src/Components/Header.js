@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Button } from 'react-bootstrap';
+import { Navbar, Nav, Button, NavDropdown } from 'react-bootstrap';
 import './Header.scss';
 
 export default class Header extends React.Component {
@@ -30,6 +30,11 @@ export default class Header extends React.Component {
                                     {navlink.name}
                                 </Nav.Link>
                             ))}
+                            <NavDropdown title="Gallerier" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="/galleri-børn">Børn</NavDropdown.Item>
+                                <NavDropdown.Item href="/galleri-bryllup">Bryllup</NavDropdown.Item>
+                                <NavDropdown.Item href="/galleri-natur">Natur</NavDropdown.Item>
+                            </NavDropdown>
                         </Nav>
                         <Button href="/kontakt" variant="outline-warning ml-auto">
                             Kontakt!

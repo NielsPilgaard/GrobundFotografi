@@ -1,85 +1,53 @@
 .about {
     display: grid;
     grid-template-areas:
-        'contact-message-box nothing contact-form'
-        'contact-message-box nothing contact-form';
-    grid-template-columns: 1fr 1fr 1fr;
+        'text1 image1'
+        'image2 text2 '
+        'text3 image3'
+        'image4 text4';
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
+    font-size: 18px;
 }
 
 .om-grobund {
-    grid-area: om-grobund;
+    grid-area: text1;
     width: 90%;
-    font-size: 24px;
 }
 
 .livsrejser {
-    grid-area: om-grobund;
+    grid-area: text2;
     width: 90%;
-    font-size: 24px;
 }
 
 .naturen {
-    grid-area: om-grobund;
+    grid-area: text3;
     width: 90%;
-    font-size: 24px;
 }
 
 .hvorfor-grobund {
-    grid-area: om-grobund;
+    grid-area: text4;
     width: 90%;
-    font-size: 24px;
+}
+
+.image1 {
+    grid-area: image1;
+}
+
+.image2 {
+    grid-area: image2;
+}
+
+.image3 {
+    grid-area: image3;
+}
+
+.image4 {
+    grid-area: image4;
 }
 
 @media only screen and (max-width: 575px) {
-    .contact {
-        margin-top: 0.5rem;
-        grid-template-areas:
-            'contact-message-box'
-            'contact-form';
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-
-    .contact-message-box {
-        width: 90%;
-        font-size: 24px;
-        padding: 1rem;
-    }
-
-    .contact-form {
-        width: 75%;
-        text-align: center;
-        margin-bottom: 1rem;
-    }
-
-    .contact .form-label {
-        display: none;
-    }
 }
 
 @media only screen and (min-width: 576px) {
-    .contact {
-        margin-top: 2rem;
-        grid-template-areas:
-            'contact-message-box nothing contact-form'
-            'contact-message-box nothing contact-form';
-        grid-template-columns: 2fr 1fr 2fr;
-    }
-
-    .contact-message-box {
-        width: 90%;
-        font-size: 28px;
-        margin-top: 10rem;
-        margin-left: 2rem;
-        padding: 1.5rem;
-        padding-top: 0;
-    }
-
-    .contact-form {
-        margin-top: 2rem;
-        width: 60%;
-        text-align: center;
-        font-size: 28px;
-    }
 }

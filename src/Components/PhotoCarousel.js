@@ -10,7 +10,7 @@ import './PhotoCarousel.scss';
 export default class PhotoCarousel extends React.Component {
     render() {
         return (
-            <Carousel indicators={false} className="carousel">
+            <Carousel indicators={false} controls={false} className="carousel">
                 <Carousel.Item>
                     <img className="w-100" src={Carousel1} alt="First slide" />
                 </Carousel.Item>

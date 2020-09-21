@@ -1,6 +1,7 @@
+import 'react-app-polyfill/ie9';
 import React from 'react';
-import { hydrate, render } from 'react-dom';
 import App from './App.js';
+import { hydrate, render } from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import './site.js';
 

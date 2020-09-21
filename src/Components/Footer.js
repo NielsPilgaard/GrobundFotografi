@@ -8,7 +8,7 @@ export default class Footer extends React.Component {
     render() {
         return (
             <div>
-                <Navbar variant="light" className="navbar-bottom">
+                <Navbar className="navbar-bottom">
                     <div className="logo-container">
                         <IconContext.Provider value={{ color: 'black', size: '2em' }}>
                             <a

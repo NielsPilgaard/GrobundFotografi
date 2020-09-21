@@ -2,8 +2,8 @@
     display: grid;
 }
 
-.welcome {
-    grid-area: welcome;
+.logo {
+    grid-area: logo;
     text-align: center;
     font-size: 28px;
 }
@@ -16,23 +16,23 @@
 @media only screen and (max-width: 575px) {
     .home {
         grid-template-areas:
-            'welcome'
+            'logo'
             'carousel';
         grid-template-columns: 1fr;
     }
 
-    .welcome {
+    .logo {
         padding: 1rem;
     }
 }
 
 @media only screen and (min-width: 576px) {
     .home {
-        grid-template-areas: 'carousel welcome';
-        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 'carousel logo';
+        grid-template-columns: 1fr 1.4fr;
     }
 
-    .welcome {
+    .logo {
         margin: auto;
     }
     .carousel {

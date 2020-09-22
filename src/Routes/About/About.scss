@@ -47,6 +47,21 @@
 }
 
 @media only screen and (max-width: 575px) {
+    .about {
+        display: grid;
+        grid-template-areas:
+            'text1'
+            'image1'
+            'text2'
+            'image2'
+            'text3'
+            'image3'
+            'text4'
+            'image4';
+        grid-template-columns: 1fr;
+        justify-items: center;
+        font-size: 18px;
+    }
 }
 
 @media only screen and (min-width: 576px) {

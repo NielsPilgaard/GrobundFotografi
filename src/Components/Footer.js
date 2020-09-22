@@ -16,6 +16,7 @@ export default class Footer extends React.Component {
                                 rel="noopener noreferrer"
                                 href="https://www.facebook.com/Grobund.Fotografi"
                                 className="mx-3"
+                                title="Facebook"
                             >
                                 <AiOutlineFacebook />
                             </a>
@@ -24,6 +25,7 @@ export default class Footer extends React.Component {
                                 rel="noopener noreferrer"
                                 href="https://www.instagram.com/grobund.fotografi/"
                                 className="mx-3"
+                                title="Instagram"
                             >
                                 <AiOutlineInstagram />
                             </a>

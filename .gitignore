@@ -26,3 +26,5 @@ package-lock.json
 .firebase/hosting.YnVpbGQ.cache
 .firebase/hosting.cHVibGlj.cache
 package-lock.json
+
+src/Assets/storage/**

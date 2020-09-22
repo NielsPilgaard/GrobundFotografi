@@ -34,7 +34,6 @@ export default function ContactForm() {
                     <Form.Control
                         tabIndex="2"
                         name="email"
-                        id="email"
                         placeholder="Indtast Email"
                         required
                         style={{

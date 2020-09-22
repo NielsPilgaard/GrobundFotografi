@@ -1,11 +1,11 @@
 # Grobund Fotografi TODO
 
-### Loading
+## Loading
 
 -   Show loading animation while images load
 -   Delay rendering until initial layout is loaded
 
-### Views
+## Views
 
 -   Home page (more images and links to prices/galleries)
 -   Prices
@@ -17,7 +17,12 @@
     -   Wedding gallery
 -   Contact (images)
 
-### Misc
+## Bugs
+
+-   Bottom navbar bar bad positioning on large screens
+-   Custom scrollbar doesn't work
+
+## Misc
 
 -   Update favicon.ico
 -   Layout on small screen (iPad)

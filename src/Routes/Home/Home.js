@@ -15,7 +15,7 @@ const Home = () => {
             </div>
             <div className="logo fade-in-5">
                 <Image fluid src={Logo} alt="Logo" />
-            </div>{' '}
+            </div>
             <Helmet
                 title="Grobund Fotografi"
                 description="Fotograf bosat på Djursland, med en passion for natur-, stemnings-, og børnefotografi."

@@ -19,7 +19,7 @@
 
 @for $i from 1 to 20 {
     .gallery .card:nth-child(#{$i}) {
-        animation-delay: calc($i * var(--stagger-delay));
+        animation-delay: calc(#{$i} * var(--stagger-delay));
     }
 }
 

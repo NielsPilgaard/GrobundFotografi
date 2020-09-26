@@ -1,11 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Footer from './Footer';
 import Header from './Header';
 import { Scrollbars } from 'react-custom-scrollbars';
 
-export class Layout extends Component {
-    static displayName = Layout.name;
-
+export class Layout extends React.Component {
     render() {
         return (
             <div className="App">

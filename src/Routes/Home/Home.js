@@ -1,16 +1,17 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
-import PhotoCarousel from '../../Components/PhotoCarousel';
-import Helmet from './../../Components/Helmet';
+import loadable from '@loadable/component';
+import Logo from './../../Assets/Logo/Logo02-cropped.png';
 
 import './Home.scss';
 
-import Logo from './../../Assets/Logo/Logo02-cropped.png';
+const PhotoCarousel = loadable(() => import('../../Components/PhotoCarousel'));
+const Helmet = loadable(() => import('./../../Components/Helmet'));
 
 const Home = () => {
     return (
         <main className="home">
-            <div className="carousel-container fade-in-10">
+            <div className="carousel-container fade-in-5">
                 <PhotoCarousel />
             </div>
             <div className="logo fade-in-5">

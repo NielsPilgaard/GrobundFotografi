@@ -1,35 +1,17 @@
 import React from 'react';
-import { Route, BrowserRouter, Switch } from 'react-router-dom';
+import loadable from '@loadable/component';
 import { Layout } from './Components/Layout';
-import LoadableCustom from './Components/LoadableCustom';
+import { Route, BrowserRouter, Switch } from 'react-router-dom';
 
-const References = LoadableCustom({
-    loader: () => import('./Routes/References/References')
-});
-const Home = LoadableCustom({
-    loader: () => import('./Routes/Home/Home')
-});
-const KidsGallery = LoadableCustom({
-    loader: () => import('./Routes/Gallery/KidsGallery/KidsGallery')
-});
-const WeddingGallery = LoadableCustom({
-    loader: () => import('./Routes/Gallery/WeddingGallery/WeddingGallery')
-});
-const NatureGallery = LoadableCustom({
-    loader: () => import('./Routes/Gallery/NatureGallery/NatureGallery')
-});
-const About = LoadableCustom({
-    loader: () => import('./Routes/About/About')
-});
-const Products = LoadableCustom({
-    loader: () => import('./Routes/Products/Products')
-});
-const Prices = LoadableCustom({
-    loader: () => import('./Routes/Prices/Prices')
-});
-const Contact = LoadableCustom({
-    loader: () => import('./Routes/Contact/Contact')
-});
+const References = loadable(() => import('./Routes/References/References'));
+const Home = loadable(() => import('./Routes/Home/Home'));
+const KidsGallery = loadable(() => import('./Routes/Gallery/KidsGallery/KidsGallery'));
+const WeddingGallery = loadable(() => import('./Routes/Gallery/WeddingGallery/WeddingGallery'));
+const NatureGallery = loadable(() => import('./Routes/Gallery/NatureGallery/NatureGallery'));
+const About = loadable(() => import('./Routes/About/About'));
+const Products = loadable(() => import('./Routes/Products/Products'));
+const Prices = loadable(() => import('./Routes/Prices/Prices'));
+const Contact = loadable(() => import('./Routes/Contact/Contact'));
 
 const baseUrl = document.getElementsByTagName('base')[0].getAttribute('href');
 

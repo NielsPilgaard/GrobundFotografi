@@ -1,9 +1,9 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import Carousel1 from './../Assets/Pictures/carousel1.jpg';
-import Carousel2 from './../Assets/Pictures/carousel2.jpg';
-import Carousel3 from './../Assets/Pictures/carousel3.jpg';
-import Carousel4 from './../Assets/Pictures/carousel4.jpg';
+import Carousel1 from './../Assets/Pictures/Kids/kids2.jpg';
+import Carousel2 from './../Assets/Pictures/Wedding/wedding1.jpg';
+import Carousel3 from './../Assets/Pictures/Kids/kids3.jpg';
+import Carousel4 from './../Assets/Pictures/Kids/kids4.jpg';
 
 import './PhotoCarousel.scss';
 

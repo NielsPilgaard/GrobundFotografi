@@ -19,12 +19,12 @@
 
 ## Bugs
 
--   Bottom navbar bar bad positioning on large screens
--   Custom scrollbar doesn't work
+-   ~~Bottom navbar bar bad positioning on large screens~~
+-   ~~Custom scrollbar doesn't work~~
 
 ## Misc
 
 -   Update favicon.ico
 -   Layout on small screen (iPad)
 -   Layout on large screen
--   Navbar Grobund Foto is always active
+-   ~~Navbar Grobund Foto is always active~~

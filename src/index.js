@@ -1,4 +1,3 @@
-import 'react-app-polyfill/ie9';
 import React from 'react';
 import App from './App.js';
 import { hydrate, render } from 'react-dom';

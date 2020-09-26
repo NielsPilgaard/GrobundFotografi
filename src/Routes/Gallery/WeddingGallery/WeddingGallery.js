@@ -1,6 +1,6 @@
 import React from 'react';
 import Helmet from '../../../Components/Helmet';
-import './WeddingGallery.scss';
+import './../Gallery.scss';
 
 export default class WeddingGallery extends React.Component {
     render() {

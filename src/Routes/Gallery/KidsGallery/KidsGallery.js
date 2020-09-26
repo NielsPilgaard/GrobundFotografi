@@ -15,14 +15,15 @@ import photo12 from './../../../Assets/Pictures/Kids/kids12.jpg';
 import Image from 'react-bootstrap/Image';
 import { Helmet } from 'react-helmet';
 
-import './KidsGallery.scss';
+import './../Gallery.scss';
+
 const photos = [photo1, photo2, photo3, photo4, photo5, photo6, photo7, photo8, photo9, photo10, photo11, photo12];
 export default class KidsGallery extends React.Component {
     render() {
         return (
             <main className="gallery gallery-kids mb-5">
                 {photos.map((photo, index) => (
-                    <Image className="card" fluid src={photo} alt="Photo" key={index} />
+                    <Image className="card card-entrance" fluid src={photo} alt="Photo" key={index} />
                 ))}
                 <Helmet
                     title="Grobund Fotografi - Børnefoto Galleri"

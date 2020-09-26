@@ -1,7 +1,7 @@
 import React from 'react';
-import { Image } from 'react-bootstrap';
 import loadable from '@loadable/component';
 import Logo from './../../Assets/Logo/Logo02-cropped.png';
+import { Image } from 'react-bootstrap';
 
 import './Home.scss';
 

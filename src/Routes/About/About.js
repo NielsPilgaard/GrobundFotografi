@@ -1,6 +1,11 @@
 import React from 'react';
+import { Image } from 'react-bootstrap';
 import Helmet from './../../Components/Helmet';
 import './About.scss';
+import photo1 from './../../Assets/Pictures/Kids/kids7.jpg';
+import photo2 from './../../Assets/Pictures/Kids/kids10.jpg';
+import photo3 from './../../Assets/Pictures/Wedding/wedding9.jpg';
+import photo4 from './../../Assets/Pictures/Wedding/wedding14.jpg';
 
 export default class About extends React.Component {
     render() {
@@ -26,7 +31,9 @@ export default class About extends React.Component {
                         livsrejser og en kæmpe del af mit liv.
                     </p>
                 </div>
-                <div className="image1">{/* <img alt="image1"></img> */}</div>
+                <div className="image1">
+                    <Image src={photo1} fluid alt="photo1" />
+                </div>
                 <div className="livsrejser fade-in-10 p-5">
                     <h3>Livsrejser</h3> <hr></hr>
                     <p>
@@ -40,7 +47,9 @@ export default class About extends React.Component {
                         dokumentere en del af den rejse. Det skal gøres ærligt.
                     </p>
                 </div>
-                <div className="image2">{/* <img alt="image2"></img> */}</div>
+                <div className="image2">
+                    <Image src={photo2} fluid alt="photo2" />
+                </div>
                 <div className="naturen fade-in-10 p-5">
                     <h3>Naturen</h3> <hr></hr>
                     <p>
@@ -56,7 +65,9 @@ export default class About extends React.Component {
                         autentiske.
                     </p>
                 </div>
-                <div className="image3">{/* <img alt="image3"></img> */}</div>
+                <div className="image3">
+                    <Image src={photo3} fluid alt="photo3" />
+                </div>
 
                 <div className="hvorfor-grobund fade-in-15 p-5">
                     <h3>Hvorfor vælge Grobund Fotografi</h3> <hr></hr>
@@ -75,7 +86,9 @@ export default class About extends React.Component {
                         mig.
                     </p>
                 </div>
-                <div className="image4">{/* <img alt="image4"></img> */}</div>
+                <div className="image4">
+                    <Image src={photo4} fluid alt="photo4" />
+                </div>
             </main>
         );
     }

@@ -1,15 +1,29 @@
+@media only screen and (max-width: 575px) {
+    .gallery {
+        grid-gap: 0.2rem;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+@media only screen and (min-width: 575px) {
+    .gallery {
+        --stagger-delay: 100ms;
+        grid-gap: 0.5rem;
+        grid-template-rows: repeat(20vw);
+        grid-template-columns: repeat(4, 1fr);
+        margin-bottom: 2rem;
+    }
+}
 .gallery {
     --stagger-delay: 100ms;
     display: grid;
-    gap: 0;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    margin-bottom: 2rem;
-    margin-top: 2rem;
 }
 
 .gallery .card {
     border: 0;
     border-radius: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .gallery .card-entrance {

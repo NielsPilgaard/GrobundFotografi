@@ -1,5 +1,14 @@
-.navbar-bottom {
+.logo-container svg {
     color: black;
+}
+
+.logo-container svg:hover {
+    color: darkcyan;
+}
+
+.logo-container a {
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 @media only screen and (min-width: 576px) {

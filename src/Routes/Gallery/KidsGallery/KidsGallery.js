@@ -21,7 +21,7 @@ const photos = [photo1, photo2, photo3, photo4, photo5, photo6, photo7, photo8, 
 export default class KidsGallery extends React.Component {
     render() {
         return (
-            <main className="gallery gallery-kids mb-5">
+            <main className="gallery gallery-kids">
                 {photos.map((photo, index) => (
                     <Image className="card card-entrance" fluid src={photo} alt="Photo" key={index} />
                 ))}

@@ -1,5 +1,15 @@
 @import '~bootstrap/scss/bootstrap';
 
+@font-face {
+    font-family: Inkfree;
+    src: url('./Assets/Fonts/Inkfree.ttf');
+}
+
+h1,
+h2 {
+    font-family: Inkfree;
+}
+
 body {
     margin: 0;
     padding: 0;

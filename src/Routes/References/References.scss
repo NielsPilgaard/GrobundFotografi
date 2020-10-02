@@ -1,0 +1,48 @@
+.facebook-reviews {
+    display: grid;
+    grid-gap: 0.2rem;
+    grid-template-rows: autosize();
+    margin-bottom: 2rem;
+}
+
+.fb-post {
+    padding: 0.5rem;
+    width: 95%;
+}
+
+.header {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.references .bg-success {
+    width: 50%;
+}
+
+.trustpilot-widget {
+    bottom: 0.5rem;
+    z-index: 9991;
+}
+
+@media only screen and (min-width: 860px) {
+    .facebook-reviews {
+        grid-gap: 1rem;
+        grid-template-areas: '1 2' '4 5';
+    }
+    .trustpilot-widget {
+        bottom: 1rem;
+        z-index: 9991;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    .facebook-reviews {
+        grid-gap: 1rem;
+        grid-template-areas: '1 2 3' '4 5 6';
+    }
+    .trustpilot-widget {
+        bottom: 1.5rem;
+        z-index: 9991;
+    }
+}

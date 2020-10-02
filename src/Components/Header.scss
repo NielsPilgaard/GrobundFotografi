@@ -2,13 +2,73 @@
 $backgroundColor: #2c4d3b;
 
 .navbar-top {
+    font-family: Inkfree;
     color: black;
-    border-bottom: #2c4d3b 1px solid;
+    border-bottom: $backgroundColor 1px solid;
 }
 
 .navbar-top a:not(.btn) {
-    font-size: 17px;
     border-bottom: 3px solid transparent;
+}
+.navbar-brand {
+    font-size: 20px !important;
+}
+.navbar-top,
+.navbar-top .btn {
+    font-size: 18px;
+}
+.nav-link {
+    margin: 0 0.5rem;
+}
+
+@media only screen and (min-width: 576px) {
+    .navbar-brand {
+        font-size: 20px !important;
+    }
+    .navbar-top,
+    .navbar-top .btn {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar-brand {
+        font-size: 16px !important;
+    }
+    .navbar-top,
+    .navbar-top .btn {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 860px) {
+    .navbar-brand {
+        font-size: 20px !important;
+    }
+    .navbar-top,
+    .navbar-top .btn {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-brand {
+        font-size: 24px !important;
+    }
+    .navbar-top,
+    .navbar-top .btn {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .navbar-brand {
+        font-size: 30px !important;
+    }
+    .navbar-top,
+    .navbar-top .btn {
+        font-size: 28px;
+    }
 }
 
 .navbar-top a:hover:not(.btn) {

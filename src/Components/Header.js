@@ -6,19 +6,19 @@ export default class Header extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            homepage: { href: '/', name: 'Grobund Fotografi', isActive: true, classNames: 'mr-5' },
+            homepage: { href: '/', name: 'Grobund Fotografi', isActive: true },
             navlinks: [
-                { href: '/om-grobund', name: 'Om Grobund', classNames: 'mr-5' },
-                { href: '/produkter', name: 'Produkter', classNames: 'mr-5' },
-                { href: '/priser', name: 'Priser', classNames: 'mr-5' },
-                { href: '/referencer', name: 'Referencer', classNames: 'mr-5' }
+                { href: '/om-grobund', name: 'Om Grobund' },
+                { href: '/produkter', name: 'Produkter' },
+                { href: '/priser', name: 'Priser' },
+                { href: '/referencer', name: 'Referencer' }
             ]
         };
     }
     render() {
         return (
             <div>
-                <Navbar expand="lg" className="navbar-top justify-content-left">
+                <Navbar expand="md" className="navbar-top justify-content-left">
                     <Navbar.Brand className={this.state.homepage.classNames} href={this.state.homepage.href}>
                         {this.state.homepage.name}
                     </Navbar.Brand>
@@ -26,7 +26,7 @@ export default class Header extends React.Component {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav>
                             {this.state.navlinks.map((navlink, index) => (
-                                <Nav.Link key={navlink.name} className={navlink.classNames} href={navlink.href}>
+                                <Nav.Link key={navlink.name} href={navlink.href}>
                                     {navlink.name}
                                 </Nav.Link>
                             ))}

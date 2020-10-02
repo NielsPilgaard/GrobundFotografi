@@ -55,7 +55,11 @@ export default class References extends React.Component {
                     data-style-width="100%"
                     data-theme="light"
                 >
-                    <a href="https://dk.trustpilot.com/review/grobundfotografi.dk" target="_blank" rel="noopener">
+                    <a
+                        href="https://dk.trustpilot.com/review/grobundfotografi.dk"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         Trustpilot
                     </a>
                 </div>

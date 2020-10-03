@@ -1,13 +1,14 @@
 .facebook-reviews {
     display: grid;
-    grid-gap: 0.2rem;
-    grid-template-rows: autosize();
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .fb-post {
-    padding: 0.5rem;
-    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
 }
 
 .header {
@@ -15,8 +16,12 @@
     text-align: center;
     font-size: 3rem;
 }
-
-.references .bg-success {
+.subheader {
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.bg-success {
     width: 50%;
 }
 
@@ -27,22 +32,15 @@
 
 @media only screen and (min-width: 860px) {
     .facebook-reviews {
-        grid-gap: 1rem;
-        grid-template-areas: '1 2' '4 5';
+        grid-template-areas: '1' '2';
     }
     .trustpilot-widget {
         bottom: 1rem;
-        z-index: 9991;
     }
 }
 
 @media only screen and (min-width: 1250px) {
-    .facebook-reviews {
-        grid-gap: 1rem;
-        grid-template-areas: '1 2 3' '4 5 6';
-    }
     .trustpilot-widget {
         bottom: 1.5rem;
-        z-index: 9991;
     }
 }

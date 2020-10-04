@@ -5,12 +5,7 @@ import './References.scss';
 
 export default class References extends React.Component {
     componentDidMount() {
-        var aScript = document.createElement('script');
-        aScript.type = 'text/javascript';
-        aScript.src = '//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js';
-        aScript.async = 'true';
-        document.head.appendChild(aScript);
-        // aScript.onload = function () {
+        // window.onload = function () {
         //     var trustbox = document.getE('trustbox');
         //     window.Trustpilot.loadFromElement(trustbox);
         // };
@@ -23,35 +18,35 @@ export default class References extends React.Component {
                 <h4 className="subheader">5 ud af 5 stjerner på Facebook!</h4>
                 <div className="facebook-reviews">
                     <FacebookProvider appId="667013567353699">
-                        <span role="img" aria-label="5 stars">
+                        <span role="img" aria-label="5 stars" className="fade-in-5">
                             ⭐⭐⭐⭐⭐
                         </span>
                         <EmbeddedPost href="https://www.facebook.com/vivian.skalshenckel/posts/10221220134585469" />
-                        <span role="img" aria-label="5 stars">
+                        <span role="img" aria-label="5 stars" className="fade-in-5">
                             ⭐⭐⭐⭐⭐
                         </span>
                         <EmbeddedPost href="https://www.facebook.com/miiaw/posts/10221846105961774" />
-                        <span role="img" aria-label="5 stars">
+                        <span role="img" aria-label="5 stars" className="fade-in-5">
                             ⭐⭐⭐⭐⭐
                         </span>
                         <EmbeddedPost href="https://www.facebook.com/permalink.php?story_fbid=10157740146472145&id=590002144" />
-                        <span role="img" aria-label="5 stars">
+                        <span role="img" aria-label="5 stars" className="fade-in-5">
                             ⭐⭐⭐⭐⭐
                         </span>
                         <EmbeddedPost href="https://www.facebook.com/permalink.php?story_fbid=212663969758121&id=100030435576969" />
-                        <span role="img" aria-label="5 stars">
+                        <span role="img" aria-label="5 stars" className="fade-in-5">
                             ⭐⭐⭐⭐⭐
                         </span>
                         <EmbeddedPost href="https://www.facebook.com/mette.birkemose.1/posts/10162534382650234" />
-                        <span role="img" aria-label="5 stars">
+                        <span role="img" aria-label="5 stars" className="fade-in-5">
                             ⭐⭐⭐⭐⭐
                         </span>
                         <EmbeddedPost href="https://www.facebook.com/ostehaps2807/posts/10220939427779189" />
-                        <span role="img" aria-label="5 stars">
+                        <span role="img" aria-label="5 stars" className="fade-in-5">
                             ⭐⭐⭐⭐⭐
                         </span>
                         <EmbeddedPost href="https://www.facebook.com/GerdJensen149/posts/10158481486043024" />
-                        <span role="img" aria-label="5 stars">
+                        <span role="img" aria-label="5 stars" className="fade-in-5">
                             ⭐⭐⭐⭐⭐
                         </span>
                         <EmbeddedPost href="https://www.facebook.com/cecilie.ulfkjaer/posts/10222444915650966" />

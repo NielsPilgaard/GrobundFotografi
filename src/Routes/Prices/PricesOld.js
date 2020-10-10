@@ -3,14 +3,14 @@ import { Image } from 'react-bootstrap';
 import Helmet from '../../Components/Helmet';
 import './Prices.scss';
 
-import photo1 from './../../Assets/Pictures/Kids/kids21.jpg';
-import photo2 from './../../Assets/Pictures/Pregnancy/pregnancy4.jpg';
+import photo1 from './../../Assets/Pictures/Kids/kids21.webp';
+import photo2 from './../../Assets/Pictures/Pregnancy/pregnancy4.webp';
 
-import photo3 from './../../Assets/Pictures/Wedding/wedding11.jpg';
-import photo4 from './../../Assets/Pictures/Wedding/wedding14.jpg';
+import photo3 from './../../Assets/Pictures/Wedding/wedding11.webp';
+import photo4 from './../../Assets/Pictures/Wedding/wedding14.webp';
 
-import photo5 from './../../Assets/Pictures/Family/family6.jpg';
-import photo6 from './../../Assets/Pictures/Family/family1.jpg';
+import photo5 from './../../Assets/Pictures/Family/family6.webp';
+import photo6 from './../../Assets/Pictures/Family/family1.webp';
 
 export default class Prices extends React.Component {
     render() {

@@ -2,10 +2,10 @@ import React from 'react';
 import { Image } from 'react-bootstrap';
 import Helmet from './../../Components/Helmet';
 import './About.scss';
-import photo1 from './../../Assets/Pictures/Kids/kids7.jpg';
-import photo2 from './../../Assets/Pictures/Kids/kids10.jpg';
-import photo3 from './../../Assets/Pictures/Wedding/wedding9.jpg';
-import photo4 from './../../Assets/Pictures/Wedding/wedding14.jpg';
+import photo1 from './../../Assets/Pictures/Kids/kids7.webp';
+import photo2 from './../../Assets/Pictures/Kids/kids10.webp';
+import photo3 from './../../Assets/Pictures/Wedding/wedding9.webp';
+import photo4 from './../../Assets/Pictures/Wedding/wedding14.webp';
 
 export default class About extends React.Component {
     render() {

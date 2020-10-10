@@ -8,14 +8,14 @@
 ## Views
 
 -   Home page (more images and links to prices/galleries)
--   Prices
+-   ~~Prices~~
 -   References
 -   Products
 -   Gallery
     -   Nature gallery
     -   Kids gallery
     -   Wedding gallery
--   Contact 
+-   Contact
     -   Images
     -   Google Maps
 
@@ -29,4 +29,4 @@
 -   Update favicon.ico
 -   Layout on small screen (iPad)
 -   Layout on large screen
--   ~~Navbar Grobund Foto is always active~~
+-   Navbar Grobund Foto is always active on some browsers

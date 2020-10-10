@@ -1,19 +1,19 @@
 import React from 'react';
-import photo1 from './../../../Assets/Pictures/Wedding/wedding1.jpg';
-import photo2 from './../../../Assets/Pictures/Wedding/wedding2.jpg';
-import photo3 from './../../../Assets/Pictures/Wedding/wedding3.jpg';
-import photo4 from './../../../Assets/Pictures/Wedding/wedding4.jpg';
-import photo6 from './../../../Assets/Pictures/Wedding/wedding6.jpg';
+import photo1 from './../../../Assets/Pictures/Wedding/wedding1.webp';
+import photo2 from './../../../Assets/Pictures/Wedding/wedding2.webp';
+import photo3 from './../../../Assets/Pictures/Wedding/wedding3.webp';
+import photo4 from './../../../Assets/Pictures/Wedding/wedding4.webp';
+import photo6 from './../../../Assets/Pictures/Wedding/wedding6.webp';
 
-import photo7 from './../../../Assets/Pictures/Wedding/wedding7.jpg';
-import photo8 from './../../../Assets/Pictures/Wedding/wedding8.jpg';
-import photo9 from './../../../Assets/Pictures/Wedding/wedding9.jpg';
-import photo10 from './../../../Assets/Pictures/Wedding/wedding10.jpg';
-import photo11 from './../../../Assets/Pictures/Wedding/wedding11.jpg';
+import photo7 from './../../../Assets/Pictures/Wedding/wedding7.webp';
+import photo8 from './../../../Assets/Pictures/Wedding/wedding8.webp';
+import photo9 from './../../../Assets/Pictures/Wedding/wedding9.webp';
+import photo10 from './../../../Assets/Pictures/Wedding/wedding10.webp';
+import photo11 from './../../../Assets/Pictures/Wedding/wedding11.webp';
 
-import photo12 from './../../../Assets/Pictures/Wedding/wedding12.jpg';
-import photo13 from './../../../Assets/Pictures/Wedding/wedding13.jpg';
-import photo14 from './../../../Assets/Pictures/Wedding/wedding14.jpg';
+import photo12 from './../../../Assets/Pictures/Wedding/wedding12.webp';
+import photo13 from './../../../Assets/Pictures/Wedding/wedding13.webp';
+import photo14 from './../../../Assets/Pictures/Wedding/wedding14.webp';
 import Helmet from '../../../Components/Helmet';
 import './../Gallery.scss';
 import { Image } from 'react-bootstrap';

@@ -5,10 +5,10 @@ import './References.scss';
 
 export default class References extends React.Component {
     componentDidMount() {
-        window.onload = function () {
-            var trustbox = document.getElementsByClassName('trustpilot-widget');
-            window.Trustpilot.loadFromElement(trustbox);
-        };
+        // window.onload = function () {
+        //     var trustbox = document.getElementsByClassName('trustpilot-widget');
+        //     window.Trustpilot.loadFromElement(trustbox);
+        // };
     }
     render() {
         return (

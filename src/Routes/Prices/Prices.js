@@ -3,16 +3,16 @@ import Card from 'react-bootstrap/Card';
 import Helmet from '../../Components/Helmet';
 import './Prices.scss';
 
-import kids1 from './../../Assets/Pictures/Kids/kids23.jpg';
-import kids2 from './../../Assets/Pictures/Pregnancy/pregnancy4.jpg';
+import kids1 from './../../Assets/Pictures/Kids/kids23.webp';
+import kids2 from './../../Assets/Pictures/Pregnancy/pregnancy4.webp';
 
-import wedding1 from './../../Assets/Pictures/Wedding/wedding11.jpg';
-import wedding2 from './../../Assets/Pictures/Wedding/wedding14.jpg';
-import wedding3 from './../../Assets/Pictures/Wedding/wedding4.jpg';
+import wedding1 from './../../Assets/Pictures/Wedding/wedding11.webp';
+import wedding2 from './../../Assets/Pictures/Wedding/wedding14.webp';
+import wedding3 from './../../Assets/Pictures/Wedding/wedding4.webp';
 
-import family1 from './../../Assets/Pictures/Family/family6.jpg';
-import family2 from './../../Assets/Pictures/Family/family1.jpg';
-import family3 from './../../Assets/Pictures/Family/family3.jpg';
+import family1 from './../../Assets/Pictures/Family/family6.webp';
+import family2 from './../../Assets/Pictures/Family/family1.webp';
+import family3 from './../../Assets/Pictures/Family/family3.webp';
 
 export default class Prices extends React.Component {
     render() {

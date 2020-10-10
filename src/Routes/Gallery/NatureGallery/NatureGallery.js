@@ -1,14 +1,14 @@
 import React from 'react';
-import photo1 from './../../../Assets/Pictures/Nature/nature1.jpg';
-import photo2 from './../../../Assets/Pictures/Nature/nature2.jpg';
-import photo3 from './../../../Assets/Pictures/Nature/nature3.jpg';
-import photo4 from './../../../Assets/Pictures/Nature/nature4.jpg';
-import photo5 from './../../../Assets/Pictures/Nature/nature5.jpg';
-import photo7 from './../../../Assets/Pictures/Nature/nature7.jpg';
-import photo8 from './../../../Assets/Pictures/Nature/nature8.jpg';
-import photo9 from './../../../Assets/Pictures/Nature/nature9.jpg';
-import photo10 from './../../../Assets/Pictures/Nature/nature10.jpg';
-import photo11 from './../../../Assets/Pictures/Nature/nature11.jpg';
+import photo1 from './../../../Assets/Pictures/Nature/nature1.webp';
+import photo2 from './../../../Assets/Pictures/Nature/nature2.webp';
+import photo3 from './../../../Assets/Pictures/Nature/nature3.webp';
+import photo4 from './../../../Assets/Pictures/Nature/nature4.webp';
+import photo5 from './../../../Assets/Pictures/Nature/nature5.webp';
+import photo7 from './../../../Assets/Pictures/Nature/nature7.webp';
+import photo8 from './../../../Assets/Pictures/Nature/nature8.webp';
+import photo9 from './../../../Assets/Pictures/Nature/nature9.webp';
+import photo10 from './../../../Assets/Pictures/Nature/nature10.webp';
+import photo11 from './../../../Assets/Pictures/Nature/nature11.webp';
 import Helmet from '../../../Components/Helmet';
 
 import { Image } from 'react-bootstrap';

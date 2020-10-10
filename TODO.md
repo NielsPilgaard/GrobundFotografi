@@ -15,7 +15,9 @@
     -   Nature gallery
     -   Kids gallery
     -   Wedding gallery
--   Contact (images)
+-   Contact 
+    -   Images
+    -   Google Maps
 
 ## Bugs
 

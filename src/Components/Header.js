@@ -9,7 +9,7 @@ export default class Header extends React.Component {
             homepage: { href: '/', name: 'Grobund Fotografi', isActive: true },
             navlinks: [
                 { href: '/om-grobund', name: 'Om Grobund' },
-                { href: '/produkter', name: 'Produkter' },
+                // { href: '/produkter', name: 'Produkter' },
                 { href: '/priser', name: 'Priser' },
                 { href: '/referencer', name: 'Referencer' }
             ]

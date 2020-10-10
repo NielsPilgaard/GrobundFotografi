@@ -31,7 +31,7 @@ export default class About extends React.Component {
                         livsrejser og en kæmpe del af mit liv.
                     </p>
                 </div>
-                <div className="image1">
+                <div className="image1 fade-in-5">
                     <Image src={photo1} fluid alt="photo1" />
                 </div>
                 <div className="livsrejser fade-in-10 p-5">
@@ -47,7 +47,7 @@ export default class About extends React.Component {
                         dokumentere en del af den rejse. Det skal gøres ærligt.
                     </p>
                 </div>
-                <div className="image2">
+                <div className="image2 fade-in-10">
                     <Image src={photo2} fluid alt="photo2" />
                 </div>
                 <div className="naturen fade-in-10 p-5">
@@ -65,7 +65,7 @@ export default class About extends React.Component {
                         autentiske.
                     </p>
                 </div>
-                <div className="image3">
+                <div className="image3 fade-in-10">
                     <Image src={photo3} fluid alt="photo3" />
                 </div>
 
@@ -86,7 +86,7 @@ export default class About extends React.Component {
                         mig.
                     </p>
                 </div>
-                <div className="image4">
+                <div className="image4 fade-in-15">
                     <Image src={photo4} fluid alt="photo4" />
                 </div>
             </main>

@@ -18,7 +18,7 @@
     width: 60%;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 700px) {
     .contact {
         margin-top: 0.5rem;
         grid-template-areas:
@@ -45,7 +45,7 @@
     }
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 700px) {
     .contact {
         margin-top: 2rem;
         grid-template-areas:
@@ -64,8 +64,11 @@
     }
 
     .contact-form {
+        border: 1px solid gray;
+        padding: 1rem;
+        border-radius: 0.5rem;
         margin-top: 2rem;
-        width: 60%;
+        width: 70%;
         text-align: center;
         font-size: 28px;
     }

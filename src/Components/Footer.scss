@@ -17,14 +17,13 @@
         right: 0;
         bottom: 0;
         left: 0;
-        z-index: 1030;
     }
     .logo-container {
         margin-left: auto;
     }
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 576px) {
     .navbar-bottom {
         border-top: #2c4d3b 1px solid;
     }

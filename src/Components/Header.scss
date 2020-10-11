@@ -33,16 +33,6 @@ $backgroundColor: #2c4d3b;
 
 @media only screen and (min-width: 768px) {
     .navbar-brand {
-        font-size: 16px !important;
-    }
-    .navbar-top,
-    .navbar-top .btn {
-        font-size: 14px;
-    }
-}
-
-@media only screen and (min-width: 860px) {
-    .navbar-brand {
         font-size: 20px !important;
     }
     .navbar-top,
@@ -51,7 +41,7 @@ $backgroundColor: #2c4d3b;
     }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 860px) {
     .navbar-brand {
         font-size: 24px !important;
     }
@@ -61,13 +51,23 @@ $backgroundColor: #2c4d3b;
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 992px) {
     .navbar-brand {
-        font-size: 30px !important;
+        font-size: 28px !important;
     }
     .navbar-top,
     .navbar-top .btn {
-        font-size: 28px;
+        font-size: 26px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .navbar-brand {
+        font-size: 32px !important;
+    }
+    .navbar-top,
+    .navbar-top .btn {
+        font-size: 30px;
     }
 }
 

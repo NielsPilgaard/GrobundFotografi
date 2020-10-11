@@ -6,15 +6,17 @@ export default class Header extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            homepage: { href: '/', name: 'Grobund Fotografi', isActive: true },
+            homepage: { href: '/', name: 'Grobund Fotografi' },
             navlinks: [
                 { href: '/om-grobund', name: 'Om Grobund' },
                 // { href: '/produkter', name: 'Produkter' },
                 { href: '/priser', name: 'Priser' },
                 { href: '/referencer', name: 'Referencer' }
-            ]
+            ],
+            navExpanded: false
         };
     }
+
     render() {
         return (
             <div>

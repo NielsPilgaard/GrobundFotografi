@@ -11,10 +11,10 @@
 -   ~~Prices~~
 -   References
 -   Products
--   Gallery
-    -   Nature gallery
-    -   Kids gallery
-    -   Wedding gallery
+-   ~~Gallery~~
+    -   ~~Nature gallery~~
+    -   ~~Kids gallery~~
+    -   ~~Wedding gallery~~
 -   Contact
     -   Images
     -   Google Maps

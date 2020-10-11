@@ -84,11 +84,11 @@
 }
 
 .card {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .card-title {
-    font-size: 36px;
+    font-size: 33px;
     text-align: center;
     font-family: Inkfree;
 }
@@ -99,4 +99,15 @@
 
 .service-group .card {
     list-style-type: none;
+}
+
+@media only screen and (max-width: 930px) {
+    .card-w-33 {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 930px) {
+    .card-w-33 {
+        width: 33%;
+    }
 }

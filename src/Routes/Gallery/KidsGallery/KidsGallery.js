@@ -12,12 +12,57 @@ import photo10 from './../../../Assets/Pictures/Kids/kids10.webp';
 import photo11 from './../../../Assets/Pictures/Kids/kids11.webp';
 import photo12 from './../../../Assets/Pictures/Kids/kids12.webp';
 
+import photo13 from './../../../Assets/Pictures/Kids/kids13.webp';
+import photo15 from './../../../Assets/Pictures/Kids/kids15.webp';
+import photo18 from './../../../Assets/Pictures/Kids/kids18.webp';
+import photo19 from './../../../Assets/Pictures/Kids/kids19.webp';
+import photo20 from './../../../Assets/Pictures/Kids/kids20.webp';
+import photo21 from './../../../Assets/Pictures/Kids/kids21.webp';
+import photo22 from './../../../Assets/Pictures/Kids/kids22.webp';
+import photo23 from './../../../Assets/Pictures/Kids/kids23.webp';
+import photo24 from './../../../Assets/Pictures/Kids/kids24.webp';
+import photo25 from './../../../Assets/Pictures/Kids/kids25.webp';
+import photo26 from './../../../Assets/Pictures/Kids/kids26.webp';
+import photo27 from './../../../Assets/Pictures/Kids/kids27.webp';
+
 import Image from 'react-bootstrap/Image';
 import { Helmet } from 'react-helmet';
 
 import './../Gallery.scss';
 
-const photos = [photo1, photo2, photo3, photo4, photo5, photo6, photo7, photo8, photo9, photo10, photo11, photo12];
+const photos = [
+    photo7,
+    photo1,
+    photo15,
+    photo26,
+    photo6,
+    photo5,
+
+    photo13,
+    photo20,
+    photo25,
+
+    photo8,
+    photo11,
+
+    photo18,
+    photo27,
+    photo12,
+
+    photo2,
+    photo21,
+
+    photo3,
+    photo4,
+    photo24,
+    photo9,
+
+    photo22,
+    photo10,
+    photo19,
+
+    photo23
+];
 export default class KidsGallery extends React.Component {
     render() {
         return (

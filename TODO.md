@@ -26,7 +26,7 @@
 
 ## Misc
 
--   Update favicon.ico
+-   Update favicon.ico (High contrast / bright)
 -   Layout on small screen (iPad)
 -   Layout on large screen
--   Navbar Grobund Foto is always active on some browsers
+-   ~~Navbar Grobund Foto is always active on some browsers~~

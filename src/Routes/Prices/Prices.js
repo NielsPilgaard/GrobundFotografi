@@ -53,10 +53,7 @@ export default class Prices extends React.Component {
                                 <Card.Title>Bryllupspakke 1</Card.Title>
                                 <Card.Text>
                                     <li className="price-tag">2 timer til 2000kr.</li>
-                                    <li>
-                                        Her får I de billeder som er blevet gode, cirka 100 billeder, i jeres eget
-                                        online galleri.
-                                    </li>
+                                    <li>100+ billeder, i eget personlige online galleri.</li>
                                     <li>Denne pakke er beregnet til selve ceremonien i kirken eller ved en vielse.</li>
                                     <small className="text-muted">
                                         Denne pakke kan også bestilles til dåb/konfirmation.
@@ -70,10 +67,7 @@ export default class Prices extends React.Component {
                                 <Card.Title>Bryllupspakke 2</Card.Title>
                                 <Card.Text>
                                     <li className="price-tag">3 timer til 3500kr.</li>
-                                    <li>
-                                        Her får I de billeder som er blevet gode, cirka 150 billeder, i jeres eget
-                                        online galleri.
-                                    </li>
+                                    <li>100+ billeder, i eget personlige online galleri.</li>
                                     <li>
                                         Denne pakke er god til at få billeder af vielsen og eventuelt parbilleder
                                         bagefter.
@@ -90,10 +84,7 @@ export default class Prices extends React.Component {
                                 <Card.Title>Bryllupspakke 3</Card.Title>
                                 <Card.Text>
                                     <li className="price-tag">5 timer til 5000kr.</li>
-                                    <li>
-                                        Her får I de billeder som er blevet gode, cirka 200 billeder, i jeres eget
-                                        online galleri.
-                                    </li>
+                                    <li>100+ billeder, i eget personlige online galleri.</li>
                                     <li>
                                         Denne pakke er god til at ”følge dagen” og få billeder af både vielse og fest.
                                     </li>
@@ -121,7 +112,7 @@ export default class Prices extends React.Component {
                                 <Card.Title>Familiepakke 2</Card.Title>
                                 <Card.Text>
                                     <li className="price-tag">1 timer til 900kr.</li>
-                                    <li>40+ billeder i eget personlige online galleri.</li>
+                                    <li>30+ billeder i eget personlige online galleri.</li>
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -131,7 +122,7 @@ export default class Prices extends React.Component {
                                 <Card.Title>Familiepakke 3</Card.Title>
                                 <Card.Text>
                                     <li className="price-tag">2 timer til 1500kr.</li>
-                                    <li>60+ billeder i eget personlige online galleri.</li>
+                                    <li>40+ billeder i eget personlige online galleri.</li>
                                 </Card.Text>
                             </Card.Body>
                         </Card>

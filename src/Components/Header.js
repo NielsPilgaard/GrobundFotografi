@@ -21,9 +21,7 @@ export default class Header extends React.Component {
         return (
             <div>
                 <Navbar expand="md" className="navbar-top justify-content-left">
-                    <Navbar.Brand className={this.state.homepage.classNames} href={this.state.homepage.href}>
-                        {this.state.homepage.name}
-                    </Navbar.Brand>
+                    <Navbar.Brand href={this.state.homepage.href}>{this.state.homepage.name}</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav>

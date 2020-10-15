@@ -7,8 +7,12 @@ document.addEventListener(
 );
 
 function updateActiveElementInNavbar() {
-    var activeElement = document.querySelector(`a[href='${window.location.pathname}']`);
-    if (activeElement) {
-        activeElement.classList.add('active');
+    var elementToActivate = document.querySelector(`a[href='${window.location.pathname}']`);
+    if (elementToActivate) {
+        var activeElements = document.getElementsByClassName('active');
+        [...activeElements].forEach((element) => {
+            element.classList.remove('active');
+        });
+        elementToActivate.classList.add('active');
     }
 }

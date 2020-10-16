@@ -3,7 +3,6 @@
 ## Loading
 
 -   Show loading animation while images load
--   Delay rendering until initial layout is loaded
 
 ## Views
 

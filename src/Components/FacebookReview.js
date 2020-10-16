@@ -15,9 +15,9 @@ export default class FacebookReview extends React.Component {
                             alt={'Review ' + this.props.href}
                             className="px-3 facebook-review-img"
                         />
-                        <span role="img" aria-label="5 stjerner" className="star-overlay">
+                        {/* <span role="img" aria-label="5 stjerner" className="star-overlay">
                             ⭐⭐⭐⭐⭐
-                        </span>
+                        </span> */}
                     </a>
                 </div>
             </>

@@ -7,7 +7,7 @@ export default class FacebookReview extends React.Component {
     render() {
         return (
             <>
-                <div className="fade-in-5 review-container">
+                <div className="review-container">
                     <a rel="noopener noreferrer" target="_blank" href={this.props.href}>
                         <Image
                             fluid

@@ -2,6 +2,7 @@ import React from 'react';
 import loadable from '@loadable/component';
 import { Layout } from './Components/Layout';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
+import FamilyGallery from './Routes/Gallery/FamilyGallery/FamilyGallery';
 
 const References = loadable(() => import('./Routes/References/References'));
 const Home = loadable(() => import('./Routes/Home/Home'));
@@ -29,7 +30,8 @@ export default class App extends React.Component {
                             <Route component={Contact} exact path="/kontakt" />
                             <Route component={KidsGallery} exact path="/galleri-børn" />
                             <Route component={WeddingGallery} exact path="/galleri-bryllup" />
-                            <Route component={NatureGallery} exact path="/galleri-natur" />{' '}
+                            <Route component={FamilyGallery} exact path="/galleri-familie" />
+                            <Route component={NatureGallery} exact path="/galleri-natur" />
                             <Route component={Home} exact path="/" />
                         </Switch>
                     </Layout>

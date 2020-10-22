@@ -1,4 +1,6 @@
 import React from 'react';
+import LazyImage from '../../../Components/LazyImage';
+
 import photo1 from './../../../Assets/Pictures/Nature/nature1.webp';
 import photo2 from './../../../Assets/Pictures/Nature/nature2.webp';
 import photo3 from './../../../Assets/Pictures/Nature/nature3.webp';
@@ -21,11 +23,8 @@ import photo20 from './../../../Assets/Pictures/Nature/nature20.webp';
 import photo21 from './../../../Assets/Pictures/Nature/nature21.webp';
 import photo22 from './../../../Assets/Pictures/Nature/nature22.webp';
 import photo23 from './../../../Assets/Pictures/Nature/nature23.webp';
-import photo24 from './../../../Assets/Pictures/Nature/nature24.webp';
 
 import Helmet from '../../../Components/Helmet';
-
-import { Image } from 'react-bootstrap';
 
 import './../Gallery.scss';
 
@@ -51,8 +50,7 @@ const naturePhotos = [
     photo20,
     photo21,
     photo22,
-    photo23,
-    photo24
+    photo23
 ];
 
 export default class NatureGallery extends React.Component {
@@ -60,7 +58,7 @@ export default class NatureGallery extends React.Component {
         return (
             <main className="gallery gallery-nature">
                 {naturePhotos.map((photo, index) => (
-                    <Image className="card card-entrance" fluid src={photo} alt="Photo" key={index} />
+                    <LazyImage className="card card-entrance" src={photo} alt="Photo" key={index} fluid />
                 ))}
                 <Helmet
                     title="Grobund Fotografi - Naturfoto Galleri"

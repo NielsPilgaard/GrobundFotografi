@@ -25,6 +25,10 @@ import photo25 from './../../../Assets/Pictures/Kids/kids25.webp';
 import photo26 from './../../../Assets/Pictures/Kids/kids26.webp';
 import photo27 from './../../../Assets/Pictures/Kids/kids27.webp';
 
+import photo28 from './../../../Assets/Pictures/Kids/kids28.webp';
+import photo29 from './../../../Assets/Pictures/Kids/kids29.webp';
+import photo30 from './../../../Assets/Pictures/Kids/kids30.webp';
+
 import Image from 'react-bootstrap/Image';
 import { Helmet } from 'react-helmet';
 
@@ -37,6 +41,7 @@ const photos = [
     photo26,
     photo6,
     photo5,
+    photo28,
 
     photo13,
     photo20,
@@ -48,7 +53,7 @@ const photos = [
     photo18,
     photo27,
     photo12,
-
+    photo29,
     photo2,
     photo21,
 
@@ -61,7 +66,8 @@ const photos = [
     photo10,
     photo19,
 
-    photo23
+    photo23,
+    photo30
 ];
 export default class KidsGallery extends React.Component {
     render() {

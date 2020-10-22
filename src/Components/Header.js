@@ -33,6 +33,7 @@ export default class Header extends React.Component {
                             <NavDropdown title="Gallerier" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="/galleri-børn">Børn</NavDropdown.Item>
                                 <NavDropdown.Item href="/galleri-bryllup">Bryllup</NavDropdown.Item>
+                                <NavDropdown.Item href="/galleri-familie">Familie</NavDropdown.Item>
                                 <NavDropdown.Item href="/galleri-natur">Natur</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>

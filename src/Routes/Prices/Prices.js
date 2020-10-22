@@ -12,7 +12,7 @@ import wedding2 from './../../Assets/Pictures/Wedding/wedding17.webp';
 import wedding3 from './../../Assets/Pictures/Wedding/wedding11.webp';
 
 import family1 from './../../Assets/Pictures/Family/family6.webp';
-import family2 from './../../Assets/Pictures/Family/family1.webp';
+import family2 from './../../Assets/Pictures/Family/family16.webp';
 import family3 from './../../Assets/Pictures/Kids/kids18.webp';
 
 export default class Prices extends React.Component {

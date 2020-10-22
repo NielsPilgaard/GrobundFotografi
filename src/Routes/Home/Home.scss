@@ -10,7 +10,6 @@
 
 .carousel {
     grid-area: carousel;
-    margin-left: 0 !important;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -37,6 +36,5 @@
     }
     .carousel {
         max-width: 70%;
-        margin-left: 0 !important;
     }
 }

@@ -62,7 +62,7 @@ export default class NatureGallery extends React.Component {
                 ))}
                 <Helmet
                     title="Grobund Fotografi - Naturfoto Galleri"
-                    description="Galleri med et udvalg af billeder jeg har taget i naturen, af naturen."
+                    description="Galleri med et udvalg af naturbilleder jeg har taget."
                 />
             </main>
         );

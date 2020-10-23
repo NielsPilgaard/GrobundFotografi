@@ -58,7 +58,7 @@ export default class FamilyGallery extends React.Component {
                 ))}
                 <Helmet
                     title="Grobund Fotografi - Familie Galleri"
-                    description="Galleri med et udvalg af billeder jeg har taget af familer."
+                    description="Galleri med et udvalg af familebilleder jeg har taget."
                 />
             </main>
         );

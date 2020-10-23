@@ -1,5 +1,4 @@
 import React from 'react';
-import LazyImage from '../../../Components/LazyImage';
 
 import photo1 from './../../../Assets/Pictures/Nature/nature1.webp';
 import photo2 from './../../../Assets/Pictures/Nature/nature2.webp';
@@ -27,6 +26,7 @@ import photo23 from './../../../Assets/Pictures/Nature/nature23.webp';
 import Helmet from '../../../Components/Helmet';
 
 import './../Gallery.scss';
+import { Image } from 'react-bootstrap';
 
 const naturePhotos = [
     photo1,
@@ -58,7 +58,7 @@ export default class NatureGallery extends React.Component {
         return (
             <main className="gallery gallery-nature">
                 {naturePhotos.map((photo, index) => (
-                    <LazyImage className="card card-entrance" src={photo} alt="Photo" key={index} fluid />
+                    <Image className="card card-entrance" src={photo} alt={''} key={'nature-photo-' + index} fluid />
                 ))}
                 <Helmet
                     title="Grobund Fotografi - Naturfoto Galleri"

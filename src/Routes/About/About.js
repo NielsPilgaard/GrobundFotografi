@@ -1,11 +1,12 @@
 import React from 'react';
-import { Image, Row } from 'react-bootstrap';
+import Row from 'react-bootstrap/Row';
 import Helmet from './../../Components/Helmet';
-import './About.scss';
 import photo1 from './../../Assets/Pictures/Kids/kids7.webp';
 import photo2 from './../../Assets/Pictures/Kids/kids10.webp';
 import photo3 from './../../Assets/Pictures/Kids/kids25.webp';
 import photo4 from './../../Assets/Pictures/Wedding/wedding9.webp';
+
+import './About.scss';
 
 export default class About extends React.Component {
     render() {
@@ -15,7 +16,7 @@ export default class About extends React.Component {
                     title="Grobund Fotografi - Om"
                     description="Hvad Grobund Fotografi står for, og hvordan det hele startede."
                 />
-                <div className="om-grobund fade-in-5 p-5">
+                <div loading="lazy" className="om-grobund fade-in-5 p-5">
                     <h2 className="sub-header">Om Grobund Fotografi</h2>
                     <p>Mit navn er Josefine;</p>
                     <p>Jeg er mor, kone, naturelsker og indehaveren af Grobund Fotografi.</p>
@@ -25,10 +26,8 @@ export default class About extends React.Component {
                         erfaring indenfor pædagogfaget.
                     </p>
                 </div>
-                <div className="image1 fade-in-5">
-                    <Image src={photo1} fluid alt="photo1" />
-                </div>
-                <div className="livsrejser fade-in-10 p-5">
+                <img loading="lazy" className="img-fluid image1 fade-in-5" src={photo1} alt={''} />
+                <div loading="lazy" className="livsrejser fade-in-10 p-5">
                     <h2 className="sub-header">Dokumenterede livsrejser</h2>
                     <p>Fotografi af mennesker handler for mig om at skabe noget ærligt.</p>
                     <p>
@@ -40,10 +39,10 @@ export default class About extends React.Component {
                         hver især er på.
                     </p>
                 </div>
-                <div className="image2 fade-in-10">
-                    <Image src={photo2} fluid alt="photo2" />
-                </div>
-                <div className="naturen fade-in-10 p-5">
+
+                <img loading="lazy" className="img-fluid fade-in-10 image2" src={photo2} alt={''} />
+
+                <div loading="lazy" className="naturen fade-in-10 p-5">
                     <h2 className="sub-header">Naturen som inspiration</h2>
                     <p>
                         Ved en fotosession hos mig, vil I opleve at naturen også spiller en stor rolle. Den fungerer som
@@ -56,11 +55,10 @@ export default class About extends React.Component {
                         galleriet ”natur” se mere om dette.
                     </p>
                 </div>
-                <div className="image3 fade-in-10">
-                    <Image src={photo3} fluid alt="photo3" />
-                </div>
 
-                <div className="hvorfor-grobund fade-in-15 p-5">
+                <img loading="lazy" className="img-fluid fade-in-10 image3" src={photo3} alt={''} />
+
+                <div loading="lazy" className="hvorfor-grobund fade-in-15 p-5">
                     <h2 className="sub-header">Hvorfor vælge Grobund Fotografi</h2> <hr></hr>
                     <p>
                         Hos Grobund Fotografi får du ærlige, naturlige - ikke opstillede billeder i høj kvalitet til en
@@ -87,9 +85,7 @@ export default class About extends React.Component {
                         </a>
                     </Row>
                 </div>
-                <div className="image4 fade-in-15">
-                    <Image src={photo4} fluid alt="photo4" />
-                </div>
+                <img loading="lazy" className="img-fluid fade-in-15 image4" src={photo4} alt={''} />
             </main>
         );
     }

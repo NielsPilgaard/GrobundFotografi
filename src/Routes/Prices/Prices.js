@@ -24,7 +24,7 @@ export default class Prices extends React.Component {
                 <div className="service-group mx-auto">
                     <Row className="justify-content-center">
                         <Card className="card-w-33">
-                            <Card.Img variant="top" src={kids1} alt="top-image" />
+                            <Card.Img loading="lazy" variant="top" src={kids1} alt="top-image" />
                             <Card.Body>
                                 <Card.Title>Børn</Card.Title>
                                 <Card.Text>
@@ -35,7 +35,7 @@ export default class Prices extends React.Component {
                             </Card.Body>
                         </Card>
                         <Card className="card-w-33">
-                            <Card.Img variant="top" src={kids2} alt="top-image" />
+                            <Card.Img loading="lazy" variant="top" src={kids2} alt="top-image" />
                             <Card.Body>
                                 <Card.Title>Gravide</Card.Title>
                                 <Card.Text>
@@ -48,7 +48,7 @@ export default class Prices extends React.Component {
                     </Row>
                     <Row>
                         <Card className="card-w-33">
-                            <Card.Img variant="top" src={wedding1} alt="top-image" />
+                            <Card.Img loading="lazy" variant="top" src={wedding1} alt="top-image" />
                             <Card.Body>
                                 <Card.Title>Bryllupspakke 1</Card.Title>
                                 <Card.Text>
@@ -62,7 +62,7 @@ export default class Prices extends React.Component {
                             </Card.Body>
                         </Card>
                         <Card className="card-w-33">
-                            <Card.Img variant="top" src={wedding2} alt="top-image" />
+                            <Card.Img loading="lazy" variant="top" src={wedding2} alt="top-image" />
                             <Card.Body>
                                 <Card.Title>Bryllupspakke 2</Card.Title>
                                 <Card.Text>
@@ -79,7 +79,7 @@ export default class Prices extends React.Component {
                             </Card.Body>
                         </Card>
                         <Card className="card-w-33">
-                            <Card.Img variant="top" src={wedding3} alt="top-image" />
+                            <Card.Img loading="lazy" variant="top" src={wedding3} alt="top-image" />
                             <Card.Body>
                                 <Card.Title>Bryllupspakke 3</Card.Title>
                                 <Card.Text>
@@ -97,7 +97,7 @@ export default class Prices extends React.Component {
                     </Row>
                     <Row>
                         <Card className="card-w-33">
-                            <Card.Img variant="top" src={family1} alt="top-image" />
+                            <Card.Img loading="lazy" variant="top" src={family1} alt="top-image" />
                             <Card.Body>
                                 <Card.Title>Familiepakke 1</Card.Title>
                                 <Card.Text>
@@ -107,7 +107,7 @@ export default class Prices extends React.Component {
                             </Card.Body>
                         </Card>
                         <Card className="card-w-33">
-                            <Card.Img variant="top" src={family2} alt="top-image" />
+                            <Card.Img loading="lazy" variant="top" src={family2} alt="top-image" />
                             <Card.Body>
                                 <Card.Title>Familiepakke 2</Card.Title>
                                 <Card.Text>
@@ -117,7 +117,7 @@ export default class Prices extends React.Component {
                             </Card.Body>
                         </Card>
                         <Card className="card-w-33">
-                            <Card.Img variant="top" src={family3} alt="top-image" />
+                            <Card.Img loading="lazy" variant="top" src={family3} alt="top-image" />
                             <Card.Body>
                                 <Card.Title>Familiepakke 3</Card.Title>
                                 <Card.Text>

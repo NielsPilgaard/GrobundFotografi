@@ -2,7 +2,6 @@ import React from 'react';
 import App from './App.js';
 import { hydrate, render } from 'react-dom';
 import * as serviceWorker from './serviceWorker';
-import './site.js';
 
 // Styling
 import './index.scss';

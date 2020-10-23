@@ -29,7 +29,6 @@ import photo28 from './../../../Assets/Pictures/Kids/kids28.webp';
 import photo29 from './../../../Assets/Pictures/Kids/kids29.webp';
 import photo30 from './../../../Assets/Pictures/Kids/kids30.webp';
 
-import Image from 'react-bootstrap/Image';
 import { Helmet } from 'react-helmet';
 
 import './../Gallery.scss';
@@ -74,7 +73,14 @@ export default class KidsGallery extends React.Component {
         return (
             <main className="gallery gallery-kids">
                 {photos.map((photo, index) => (
-                    <Image className="card card-entrance" fluid src={photo} alt="Photo" key={index} />
+                    <img
+                        loading="lazy"
+                        className="img-fluid card card-entrance"
+                        fluid
+                        src={photo}
+                        alt={''}
+                        key={'børnefoto-' + index}
+                    />
                 ))}
                 <Helmet
                     title="Grobund Fotografi - Børnefoto Galleri"

@@ -26,7 +26,6 @@ import photo23 from './../../../Assets/Pictures/Nature/nature23.webp';
 import Helmet from '../../../Components/Helmet';
 
 import './../Gallery.scss';
-import { Image } from 'react-bootstrap';
 
 const naturePhotos = [
     photo1,
@@ -58,7 +57,14 @@ export default class NatureGallery extends React.Component {
         return (
             <main className="gallery gallery-nature">
                 {naturePhotos.map((photo, index) => (
-                    <Image className="card card-entrance" src={photo} alt={''} key={'nature-photo-' + index} fluid />
+                    <img
+                        loading="lazy"
+                        className="img-fluid card card-entrance"
+                        fluid
+                        src={photo}
+                        alt={''}
+                        key={'naturfoto-' + index}
+                    />
                 ))}
                 <Helmet
                     title="Grobund Fotografi - Naturfoto Galleri"

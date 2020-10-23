@@ -1,9 +1,9 @@
 import React from 'react';
 
-// import photo2 from './../../../Assets/Pictures/Family/family2.webp';
-// import photo3 from './../../../Assets/Pictures/Family/family3.webp';
-// import photo4 from './../../../Assets/Pictures/Family/family4.webp';
-// import photo6 from './../../../Assets/Pictures/Family/family6.webp';
+import photo2 from './../../../Assets/Pictures/Family/family2.webp';
+import photo3 from './../../../Assets/Pictures/Family/family3.webp';
+import photo4 from './../../../Assets/Pictures/Family/family4.webp';
+import photo6 from './../../../Assets/Pictures/Family/family6.webp';
 import photo7 from './../../../Assets/Pictures/Family/family7.webp';
 import photo8 from './../../../Assets/Pictures/Family/family8.webp';
 import photo9 from './../../../Assets/Pictures/Family/family9.webp';
@@ -16,18 +16,17 @@ import photo14 from './../../../Assets/Pictures/Family/family14.webp';
 import photo15 from './../../../Assets/Pictures/Family/family15.webp';
 import photo16 from './../../../Assets/Pictures/Family/family16.webp';
 
-import Image from 'react-bootstrap/Image';
 import { Helmet } from 'react-helmet';
 
 import './../Gallery.scss';
 
 const photos = [
-    // photo2,
+    photo2,
     photo12,
-    //   photo3,
-    //   photo4,
+    photo3,
+    photo4,
     photo13,
-    //   photo6,
+    photo6,
     photo7,
     photo8,
     photo14,
@@ -43,7 +42,14 @@ export default class FamilyGallery extends React.Component {
         return (
             <main className="gallery gallery-family">
                 {photos.map((photo, index) => (
-                    <Image className="card card-entrance" fluid src={photo} alt="Photo" key={index} />
+                    <img
+                        loading="lazy"
+                        className="img-fluid card card-entrance"
+                        fluid
+                        src={photo}
+                        alt={''}
+                        key={'familiefoto-' + index}
+                    />
                 ))}
                 <Helmet
                     title="Grobund Fotografi - Familie Galleri"

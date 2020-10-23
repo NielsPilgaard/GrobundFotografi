@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'react-bootstrap/Image';
 
 import './FacebookReview.scss';
 
@@ -9,11 +8,11 @@ export default class FacebookReview extends React.Component {
             <>
                 <div className="review-container">
                     <a rel="noopener noreferrer" target="_blank" href={this.props.href}>
-                        <Image
-                            fluid
+                        <img
+                            loading="lazy"
                             src={this.props.src}
                             alt={'Review ' + this.props.href}
-                            className="px-3 facebook-review-img"
+                            className="img-fluid px-3 img-facebook-review"
                         />
                         {/* <span role="img" aria-label="5 stjerner" className="star-overlay">
                             ⭐⭐⭐⭐⭐

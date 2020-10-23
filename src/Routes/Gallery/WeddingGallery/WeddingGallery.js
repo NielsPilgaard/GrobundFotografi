@@ -17,7 +17,6 @@ import photo14 from './../../../Assets/Pictures/Wedding/wedding14.webp';
 
 import Helmet from '../../../Components/Helmet';
 import './../Gallery.scss';
-import { Image } from 'react-bootstrap';
 
 const weddingPhotos = [
     photo11,
@@ -43,7 +42,14 @@ export default class WeddingGallery extends React.Component {
         return (
             <main className="gallery gallery-wedding">
                 {weddingPhotos.map((photo, index) => (
-                    <Image className="card card-entrance" fluid src={photo} alt="Photo" key={index} />
+                    <img
+                        loading="lazy"
+                        className="img-fluid card card-entrance"
+                        fluid
+                        src={photo}
+                        alt={''}
+                        key={'bryllupsfoto-' + index}
+                    />
                 ))}
                 <Helmet
                     title="Grobund Fotografi - Bryllups Galleri"

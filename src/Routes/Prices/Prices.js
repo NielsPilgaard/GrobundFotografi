@@ -21,10 +21,10 @@ export default class Prices extends React.Component {
             <>
                 <h1 className="header">Priser</h1>
                 <hr className="bg-success"></hr>
-                <div className="service-group mx-auto">
+                <div className="service-group mx-auto fade-in-5">
                     <Row className="justify-content-center">
-                        <Card className="card-w-33">
-                            <Card.Img loading="lazy" variant="top" src={kids1} alt="top-image" />
+                        <Card loading="lazy" className="card-w-33">
+                            <Card.Img variant="top" src={kids1} alt="top-image" />
                             <Card.Body>
                                 <Card.Title>Børn</Card.Title>
                                 <Card.Text>
@@ -34,8 +34,8 @@ export default class Prices extends React.Component {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card className="card-w-33">
-                            <Card.Img loading="lazy" variant="top" src={kids2} alt="top-image" />
+                        <Card loading="lazy" className="card-w-33">
+                            <Card.Img variant="top" src={kids2} alt="top-image" />
                             <Card.Body>
                                 <Card.Title>Gravide</Card.Title>
                                 <Card.Text>
@@ -47,8 +47,8 @@ export default class Prices extends React.Component {
                         </Card>
                     </Row>
                     <Row>
-                        <Card className="card-w-33">
-                            <Card.Img loading="lazy" variant="top" src={wedding1} alt="top-image" />
+                        <Card loading="lazy" className="card-w-33">
+                            <Card.Img variant="top" src={wedding1} alt="top-image" />
                             <Card.Body>
                                 <Card.Title>Bryllupspakke 1</Card.Title>
                                 <Card.Text>
@@ -61,8 +61,8 @@ export default class Prices extends React.Component {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card className="card-w-33">
-                            <Card.Img loading="lazy" variant="top" src={wedding2} alt="top-image" />
+                        <Card loading="lazy" className="card-w-33">
+                            <Card.Img variant="top" src={wedding2} alt="top-image" />
                             <Card.Body>
                                 <Card.Title>Bryllupspakke 2</Card.Title>
                                 <Card.Text>
@@ -78,8 +78,8 @@ export default class Prices extends React.Component {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card className="card-w-33">
-                            <Card.Img loading="lazy" variant="top" src={wedding3} alt="top-image" />
+                        <Card loading="lazy" className="card-w-33">
+                            <Card.Img variant="top" src={wedding3} alt="top-image" />
                             <Card.Body>
                                 <Card.Title>Bryllupspakke 3</Card.Title>
                                 <Card.Text>
@@ -96,8 +96,8 @@ export default class Prices extends React.Component {
                         </Card>
                     </Row>
                     <Row>
-                        <Card className="card-w-33">
-                            <Card.Img loading="lazy" variant="top" src={family1} alt="top-image" />
+                        <Card loading="lazy" className="card-w-33">
+                            <Card.Img variant="top" src={family1} alt="top-image" />
                             <Card.Body>
                                 <Card.Title>Familiepakke 1</Card.Title>
                                 <Card.Text>
@@ -106,8 +106,8 @@ export default class Prices extends React.Component {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card className="card-w-33">
-                            <Card.Img loading="lazy" variant="top" src={family2} alt="top-image" />
+                        <Card loading="lazy" className="card-w-33">
+                            <Card.Img variant="top" src={family2} alt="top-image" />
                             <Card.Body>
                                 <Card.Title>Familiepakke 2</Card.Title>
                                 <Card.Text>
@@ -116,8 +116,8 @@ export default class Prices extends React.Component {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card className="card-w-33">
-                            <Card.Img loading="lazy" variant="top" src={family3} alt="top-image" />
+                        <Card loading="lazy" className="card-w-33">
+                            <Card.Img variant="top" src={family3} alt="top-image" />
                             <Card.Body>
                                 <Card.Title>Familiepakke 3</Card.Title>
                                 <Card.Text>
@@ -130,7 +130,7 @@ export default class Prices extends React.Component {
                     <br></br>
                     <Helmet
                         title="Grobund Fotografi - Priser"
-                        description="Priser på alle slags fotografi som Grobund Fotografi tilbyder, heriblandt bryllups-, børne-, og babyfotografi."
+                        description="Priser på alle slags fotografi som Grobund Fotografi tilbyder, f.eks bryllupsfotografi, børnefotografi og babyfotografi."
                     />
                 </div>
             </>

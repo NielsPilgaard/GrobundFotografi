@@ -11,7 +11,7 @@ const Helmet = loadable(() => import('./../../Components/Helmet'));
 const Home = () => {
     return (
         <main className="home">
-            <div className="carousel-container fade-in-5">
+            <div className="carousel-container">
                 <PhotoCarousel />
             </div>
             <div className="logo fade-in-5">

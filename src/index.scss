@@ -88,11 +88,11 @@ body {
 $image-base-color: rgb(10, 117, 37);
 .img-loading {
     background-color: $image-base-color;
-    animation: loading 4s infinite ease-in-out;
-    -webkit-animation: loading 4s infinite ease-in-out;
-    -moz-animation: loading 4s infinite ease-in-out;
-    -o-animation: loading 4s infinite ease-in-out;
-    -ms-animation: loading 4s infinite ease-in-out;
+    animation: loading 7s infinite ease-in-out;
+    -webkit-animation: loading 7s infinite ease-in-out;
+    -moz-animation: loading 7s infinite ease-in-out;
+    -o-animation: loading 7s infinite ease-in-out;
+    -ms-animation: loading 7s infinite ease-in-out;
     animation-fill-mode: backwards;
 }
 

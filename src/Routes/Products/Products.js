@@ -1,18 +1,16 @@
-import React from "react";
-import Helmet from "./../../Components/Helmet";
+import React from 'react';
+import Helmet from './../../Components/Helmet';
 
+import './Products.scss';
 const Products = () => {
-  return (
-    <div>
-      <Helmet
-        title='Grobund Fotografi - Produkter'
-        description='Alle produkter designet af Grobund Fotografi, heriblandt kalendre og fotobøger.'
-      />
-      <header className='App-header'>
-        <h1>Produkter - Kommer snart</h1>
-      </header>
-    </div>
-  );
+    return (
+        <main className="products">
+            <Helmet
+                title="Grobund Fotografi - Produkter"
+                description="Alle produkter designet af Grobund Fotografi, f.eks kalendre og fotobøger."
+            />
+        </main>
+    );
 };
 
 export default Products;

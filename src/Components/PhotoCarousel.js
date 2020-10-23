@@ -10,7 +10,7 @@ export default class PhotoCarousel extends React.Component {
         return (
             <Carousel indicators={false} controls={false} className="carousel">
                 <Carousel.Item>
-                    <img className="w-100 img-loading" src={Carousel1} alt="First slide" />
+                    <img className="w-100 img-loading active" src={Carousel1} alt="First slide" />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img className="w-100 img-loading" src={Carousel2} alt="Second slide" />

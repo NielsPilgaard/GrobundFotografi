@@ -14,6 +14,15 @@
         <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.webp" />
         <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
         <title>Grobund Fotografi</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFontConfig = {
+                custom: {
+                    families: ['Inkfree']
+                    }
+                };
+        </script>        <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+
     </head>
     <body>
         <noscript>You should enable JavaScript to run this app.</noscript>
@@ -32,6 +41,5 @@
             };
             firebase.initializeApp(firebaseConfig);
         </script>
-        <!-- <script src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"></script> -->
     </body>
 </html>

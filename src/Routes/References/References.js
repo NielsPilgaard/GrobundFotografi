@@ -1,6 +1,5 @@
 import React from 'react';
-import Helmet from './../../Components/Helmet';
-import FacebookReview from '../../Components/FacebookReview';
+import loadable from '@loadable/component';
 
 import ReviewCecilie from './../../Assets/Pictures/Reviews/cecilie.webp';
 import ReviewGerd from './../../Assets/Pictures/Reviews/gerd.webp';
@@ -12,6 +11,9 @@ import ReviewVivian from './../../Assets/Pictures/Reviews/vivian.webp';
 import ReviewMaria from './../../Assets/Pictures/Reviews/maria.webp';
 
 import './References.scss';
+
+const Helmet = loadable(() => import('../../Components/Helmet'));
+const FacebookReview = loadable(() => import('./../../Components/FacebookReview'));
 
 const data = {
     reviews: [

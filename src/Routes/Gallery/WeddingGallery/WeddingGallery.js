@@ -15,8 +15,10 @@ import photo13 from './../../../Assets/Pictures/Wedding/wedding13.webp';
 
 import photo14 from './../../../Assets/Pictures/Wedding/wedding14.webp';
 
-import Helmet from '../../../Components/Helmet';
+import loadable from '@loadable/component';
 import './../Gallery.scss';
+
+const Helmet = loadable(() => import('./../../../Components/Helmet'));
 
 const weddingPhotos = [
     photo11,

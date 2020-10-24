@@ -16,9 +16,10 @@ import photo14 from './../../../Assets/Pictures/Family/family14.webp';
 import photo15 from './../../../Assets/Pictures/Family/family15.webp';
 import photo16 from './../../../Assets/Pictures/Family/family16.webp';
 
-import { Helmet } from 'react-helmet';
-
 import './../Gallery.scss';
+
+import loadable from '@loadable/component';
+const Helmet = loadable(() => import('./../../../Components/Helmet'));
 
 const photos = [
     photo2,

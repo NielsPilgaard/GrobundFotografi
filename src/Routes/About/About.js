@@ -1,12 +1,15 @@
 import React from 'react';
 import Row from 'react-bootstrap/Row';
-import Helmet from './../../Components/Helmet';
+
 import photo1 from './../../Assets/Pictures/Kids/kids7.webp';
 import photo2 from './../../Assets/Pictures/Kids/kids10.webp';
 import photo3 from './../../Assets/Pictures/Kids/kids25.webp';
 import photo4 from './../../Assets/Pictures/Wedding/wedding9.webp';
 
 import './About.scss';
+
+import loadable from '@loadable/component';
+const Helmet = loadable(() => import('./../../Components/Helmet'));
 
 export default class About extends React.Component {
     render() {

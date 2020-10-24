@@ -1,7 +1,8 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
-import Helmet from '../../Components/Helmet';
+import loadable from '@loadable/component';
+
 import './Prices.scss';
 
 import kids1 from './../../Assets/Pictures/Kids/kids24.webp';
@@ -14,6 +15,8 @@ import wedding3 from './../../Assets/Pictures/Wedding/wedding11.webp';
 import family1 from './../../Assets/Pictures/Family/family6.webp';
 import family2 from './../../Assets/Pictures/Family/family16.webp';
 import family3 from './../../Assets/Pictures/Kids/kids18.webp';
+
+const Helmet = loadable(() => import('./../../Components/Helmet'));
 
 export default class Prices extends React.Component {
     render() {

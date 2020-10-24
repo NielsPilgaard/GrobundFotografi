@@ -1,7 +1,10 @@
 import React from 'react';
-import Helmet from './../../Components/Helmet';
+import loadable from '@loadable/component';
 
 import './Products.scss';
+
+const Helmet = loadable(() => import('./../../Components/Helmet'));
+
 const Products = () => {
     return (
         <main className="products">

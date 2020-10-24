@@ -1,12 +1,12 @@
 import React from 'react';
 import loadable from '@loadable/component';
-import Helmet from './../../Components/Helmet';
 
 // Styling
 import '../../index.scss';
 import './Contact.scss';
 
 const ContactForm = loadable(() => import('../../Components/ContactForm'));
+const Helmet = loadable(() => import('./../../Components/Helmet'));
 
 const Contact = () => {
     return (

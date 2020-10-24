@@ -10,16 +10,16 @@ export default class PhotoCarousel extends React.Component {
         return (
             <Carousel indicators={false} controls={false} className="carousel">
                 <Carousel.Item>
-                    <img loading="lazy" className="w-100 img-loading active" src={Carousel1} alt="First slide" />
+                    <img loading="lazy" className="w-100 active" src={Carousel1} alt="First slide" />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img loading="lazy" className="w-100 img-loading" src={Carousel2} alt="Second slide" />
+                    <img loading="lazy" className="w-100" src={Carousel2} alt="Second slide" />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img loading="lazy" className="w-100 img-loading" src={Carousel3} alt="Third slide" />
+                    <img loading="lazy" className="w-100" src={Carousel3} alt="Third slide" />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img loading="lazy" className="w-100 img-loading" src={Carousel4} alt="Fourth slide" />
+                    <img loading="lazy" className="w-100" src={Carousel4} alt="Fourth slide" />
                 </Carousel.Item>
             </Carousel>
         );

@@ -1,21 +1,20 @@
 import React from 'react';
 import loadable from '@loadable/component';
 import Logo from './../../Assets/Logo/Logo02-cropped.png';
-import PhotoCarousel from '../../Components/PhotoCarousel';
-import { Image } from 'react-bootstrap';
 
 import './Home.scss';
 
 const Helmet = loadable(() => import('./../../Components/Helmet'));
+const PhotoCarousel = loadable(() => import('./../../Components/PhotoCarousel'));
 
 const Home = () => {
     return (
         <main className="home">
-            <div className="carousel-container fade-in-5">
+            <div className="carousel-container">
                 <PhotoCarousel />
             </div>
-            <div className="logo fade-in-5">
-                <Image fluid src={Logo} alt="Logo" />
+            <div className="logo">
+                <img className="img-fluid" src={Logo} alt="Grobund Fotografi Logo" />
             </div>
             <Helmet
                 title="Grobund Fotografi"

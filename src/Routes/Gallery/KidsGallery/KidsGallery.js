@@ -29,9 +29,10 @@ import photo28 from './../../../Assets/Pictures/Kids/kids28.webp';
 import photo29 from './../../../Assets/Pictures/Kids/kids29.webp';
 import photo30 from './../../../Assets/Pictures/Kids/kids30.webp';
 
-import { Helmet } from 'react-helmet';
-
 import './../Gallery.scss';
+
+import loadable from '@loadable/component';
+const Helmet = loadable(() => import('./../../../Components/Helmet'));
 
 const photos = [
     photo7,

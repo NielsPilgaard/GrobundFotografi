@@ -23,9 +23,10 @@ import photo21 from './../../../Assets/Pictures/Nature/nature21.webp';
 import photo22 from './../../../Assets/Pictures/Nature/nature22.webp';
 import photo23 from './../../../Assets/Pictures/Nature/nature23.webp';
 
-import Helmet from '../../../Components/Helmet';
-
 import './../Gallery.scss';
+
+import loadable from '@loadable/component';
+const Helmet = loadable(() => import('./../../../Components/Helmet'));
 
 const naturePhotos = [
     photo1,

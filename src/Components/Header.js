@@ -9,10 +9,10 @@ export default class Header extends React.Component {
         this.state = {
             homepage: { href: '/', name: 'Grobund Fotografi', active: true },
             navlinks: [
-                { href: '/om-grobund', name: 'Om Grobund', active: false },
-                // { href: '/produkter', name: 'Produkter', active: false },
-                { href: '/priser', name: 'Priser', active: false },
-                { href: '/referencer', name: 'Referencer', active: false }
+                { href: '/om-grobund', name: 'Om Grobund' },
+                // { href: '/produkter', name: 'Produkter'},
+                { href: '/priser', name: 'Priser' },
+                { href: '/referencer', name: 'Referencer' }
             ]
         };
     }
@@ -39,9 +39,9 @@ export default class Header extends React.Component {
                                 <NavDropdown.Item as={Link} to="/galleri-bryllup">
                                     Bryllup
                                 </NavDropdown.Item>
-                                <NavDropdown.Item as={Link} to="/galleri-familie">
+                                {/* <NavDropdown.Item as={Link} to="/galleri-familie">
                                     Familie
-                                </NavDropdown.Item>
+                                </NavDropdown.Item> */}
                                 <NavDropdown.Item as={Link} to="/galleri-natur">
                                     Natur
                                 </NavDropdown.Item>

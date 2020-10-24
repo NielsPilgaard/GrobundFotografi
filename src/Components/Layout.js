@@ -1,15 +1,16 @@
 import React from 'react';
-import Footer from './Footer';
-import Header from './Header';
+import loadable from '@loadable/component';
+const Footer = loadable(() => import('./Footer'));
+const Header = loadable(() => import('./Header'));
 
-export class Layout extends React.Component {
+export default class Layout extends React.Component {
     render() {
         return (
-            <div className="App">
+            <>
                 <Header />
                 {this.props.children}
                 <Footer />
-            </div>
+            </>
         );
     }
 }

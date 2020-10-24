@@ -1,5 +1,4 @@
 import React from 'react';
-import { Navbar } from 'react-bootstrap';
 import { AiOutlineFacebook, AiOutlineInstagram } from 'react-icons/ai';
 import { IconContext } from 'react-icons';
 import './Footer.scss';
@@ -7,8 +6,8 @@ import './Footer.scss';
 export default class Footer extends React.Component {
     render() {
         return (
-            <div>
-                <Navbar className="navbar-bottom">
+            <>
+                <footer className="navbar-bottom navbar navbar-expand navbar-light">
                     <div className="logo-container">
                         <IconContext.Provider value={{ size: '2em' }}>
                             <a
@@ -29,8 +28,8 @@ export default class Footer extends React.Component {
                             </a>
                         </IconContext.Provider>
                     </div>
-                </Navbar>
-            </div>
+                </footer>
+            </>
         );
     }
 }

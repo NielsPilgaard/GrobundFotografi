@@ -19,7 +19,7 @@ export default class Header extends React.Component {
 
     render() {
         return (
-            <div>
+            <>
                 <Navbar expand="md" className="navbar-top justify-content-left">
                     <Navbar.Brand as={Link} to={this.state.homepage.href}>
                         {this.state.homepage.name}
@@ -52,7 +52,7 @@ export default class Header extends React.Component {
                         </Button>
                     </Navbar.Collapse>
                 </Navbar>
-            </div>
+            </>
         );
     }
 }

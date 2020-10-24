@@ -1,14 +1,14 @@
 import React from 'react';
 import loadable from '@loadable/component';
-import { Layout } from './Components/Layout';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
-import FamilyGallery from './Routes/Gallery/FamilyGallery/FamilyGallery';
+import Layout from './Components/Layout';
 
 const References = loadable(() => import('./Routes/References/References'));
 const Home = loadable(() => import('./Routes/Home/Home'));
-const KidsGallery = loadable(() => import('./Routes/Gallery/KidsGallery/KidsGallery'));
-const WeddingGallery = loadable(() => import('./Routes/Gallery/WeddingGallery/WeddingGallery'));
-const NatureGallery = loadable(() => import('./Routes/Gallery/NatureGallery/NatureGallery'));
+const KidsGallery = loadable(() => import('./Routes/Gallery/KidsGallery'));
+const WeddingGallery = loadable(() => import('./Routes/Gallery/WeddingGallery'));
+const NatureGallery = loadable(() => import('./Routes/Gallery/NatureGallery'));
+const FamilyGallery = loadable(() => import('./Routes/Gallery/FamilyGallery'));
 const About = loadable(() => import('./Routes/About/About'));
 const Products = loadable(() => import('./Routes/Products/Products'));
 const Prices = loadable(() => import('./Routes/Prices/Prices'));
@@ -19,7 +19,7 @@ const baseUrl = document.getElementsByTagName('base')[0].getAttribute('href');
 export default class App extends React.Component {
     render() {
         return (
-            <div>
+            <>
                 <BrowserRouter basename={baseUrl}>
                     <Layout>
                         <Switch>
@@ -36,7 +36,7 @@ export default class App extends React.Component {
                         </Switch>
                     </Layout>
                 </BrowserRouter>
-            </div>
+            </>
         );
     }
 }

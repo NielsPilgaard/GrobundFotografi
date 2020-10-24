@@ -1,7 +1,7 @@
 @media only screen and (min-width: 576px) {
     .gallery {
         --stagger-delay: 100ms;
-        grid-gap: 15px;
+        gap: 15px;
         margin-bottom: 2rem;
     }
     .gallery .card:hover {
@@ -13,7 +13,7 @@
 .gallery {
     --stagger-delay: 100ms;
     display: grid;
-    grid-gap: 15px;
+    gap: 15px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-auto-rows: 550px;
 }

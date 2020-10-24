@@ -10,6 +10,7 @@ const WeddingGallery = loadable(() => import('./Routes/Gallery/WeddingGallery'))
 const NatureGallery = loadable(() => import('./Routes/Gallery/NatureGallery'));
 const FamilyGallery = loadable(() => import('./Routes/Gallery/FamilyGallery'));
 const About = loadable(() => import('./Routes/About/About'));
+const Product = loadable(() => import('./Components/Product'));
 const Products = loadable(() => import('./Routes/Products/Products'));
 const Prices = loadable(() => import('./Routes/Prices/Prices'));
 const Contact = loadable(() => import('./Routes/Contact/Contact'));
@@ -25,6 +26,7 @@ export default class App extends React.Component {
                         <Switch>
                             <Route component={About} exact path="/om-grobund" />
                             <Route component={Products} exact path="/produkter" />
+                            <Route component={Product} exact path="/produkt" />
                             <Route component={Prices} exact path="/priser" />
                             <Route component={References} exact path="/referencer" />
                             <Route component={Contact} exact path="/kontakt" />

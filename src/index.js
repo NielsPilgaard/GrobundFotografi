@@ -17,4 +17,5 @@ if (rootElement.hasChildNodes()) {
     render(<App />, rootElement);
 }
 
-serviceWorker.register();
+// Still in-development, uncomment when we move to production
+// serviceWorker.register();

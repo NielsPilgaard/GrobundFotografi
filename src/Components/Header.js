@@ -39,9 +39,9 @@ export default class Header extends React.Component {
                                 <NavDropdown.Item as={Link} to="/galleri-bryllup">
                                     Bryllup
                                 </NavDropdown.Item>
-                                {/* <NavDropdown.Item as={Link} to="/galleri-familie">
+                                <NavDropdown.Item as={Link} to="/galleri-familie">
                                     Familie
-                                </NavDropdown.Item> */}
+                                </NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to="/galleri-natur">
                                     Natur
                                 </NavDropdown.Item>

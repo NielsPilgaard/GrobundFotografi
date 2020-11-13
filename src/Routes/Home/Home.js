@@ -18,7 +18,7 @@ const Home = () => {
             </div>
             <Helmet
                 title="Grobund Fotografi"
-                description="Fotograf bosat på Djursland, med en passion for natur-, stemnings-, og børnefotografi."
+                description="Fotograf bosat i Ryomgård på Djursland, med en passion for natur-, stemnings-, og børnefotografi."
             />
         </main>
     );

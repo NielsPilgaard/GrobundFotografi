@@ -5,6 +5,16 @@
     src: url('./Assets/Fonts/Inkfree.ttf');
 }
 
+body::-webkit-scrollbar {
+    width: 0.5rem;
+}
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb {
+    background: rgb(70, 67, 67);
+}
+
 @media only screen and (min-width: 0) {
     :root {
         font-size: 15px;

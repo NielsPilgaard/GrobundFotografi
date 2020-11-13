@@ -1,7 +1,7 @@
 import React from 'react';
 import App from './App.js';
 import { hydrate, render } from 'react-dom';
-// import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from './serviceWorker';
 
 // Styling
 import './index.scss';
@@ -17,5 +17,4 @@ if (rootElement.hasChildNodes()) {
     render(<App />, rootElement);
 }
 
-// Still in-development, uncomment when we move to production
-// serviceWorker.register();
+serviceWorker.register();

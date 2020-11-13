@@ -1,9 +1,13 @@
 import React from 'react';
-import { Navbar, Nav, Button, NavDropdown } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import './Header.scss';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import Button from 'react-bootstrap/Button';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
-export default class Header extends React.Component {
+import { Link } from 'react-router-dom';
+import './NavMenu.scss';
+
+export default class NavMenu extends React.Component {
     constructor(props) {
         super(props);
         this.state = {

@@ -6,7 +6,7 @@ export default class Product extends React.Component {
         this.state = {};
     }
     render() {
-        const { name, short_description, description, coverPhoto, photos } = this.props.location.state;
+        const { name, short_description, description, coverPhoto } = this.props.location.state;
         return (
             <main>
                 {name}

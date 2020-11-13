@@ -9,6 +9,8 @@ import photo4 from './../../Assets/Pictures/Wedding/wedding9.webp';
 import './About.scss';
 
 import loadable from '@loadable/component';
+import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 const Helmet = loadable(() => import('./../../Components/Helmet'));
 
 export default class About extends React.Component {
@@ -80,12 +82,12 @@ export default class About extends React.Component {
                     <br></br>
                     <br></br>
                     <Row className="justify-content-center">
-                        <a className="btn btn-outline-success about-buttons" href="/priser">
+                        <Button as={Link} variant="outline-success" className="about-buttons" to="/priser">
                             Priser
-                        </a>
-                        <a className="btn btn-outline-success about-buttons" href="/kontakt">
+                        </Button>
+                        <Button as={Link} variant="outline-success" className="about-buttons" to="/kontakt">
                             Kontakt
-                        </a>
+                        </Button>
                     </Row>
                 </div>
                 <img loading="lazy" className="img-fluid fade-in-15 image4" src={photo4} alt={''} />

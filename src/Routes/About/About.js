@@ -40,7 +40,7 @@ export default class About extends React.Component {
                         begivenhed.
                     </p>
                     <p>
-                        Derfor kalder jeg min stemningsfotograf. Mit mål er at fange stemningen og de livsrejser som i
+                        Derfor kalder jeg mig stemningsfotograf. Mit mål er at fange stemningen og de livsrejser som I
                         hver især er på.
                     </p>
                 </div>
@@ -57,7 +57,7 @@ export default class About extends React.Component {
                     <p>
                         Naturen blev min første muse, da jeg altid har kunne finde ro og fordybelse der. Makrofotografi
                         fik hurtigt et greb om mit hjerte, da jeg deri fandt en helt ny verden at udforske. I kan i
-                        galleriet ”natur” se mere om dette.
+                        galleriet "natur" se mere om dette.
                     </p>
                 </div>
 

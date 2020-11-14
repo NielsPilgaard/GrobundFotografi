@@ -1,7 +1,6 @@
 import React from 'react';
 import App from './App.js';
 import { hydrate, render } from 'react-dom';
-import { register as registerServiceWorker } from './serviceWorker.js';
 
 // Styling
 import './index.scss';
@@ -16,5 +15,3 @@ if (rootElement.hasChildNodes()) {
 } else {
     render(<App />, rootElement);
 }
-
-registerServiceWorker();

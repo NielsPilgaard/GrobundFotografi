@@ -1,7 +1,7 @@
 import React from 'react';
 import App from './App.js';
 import { hydrate, render } from 'react-dom';
-import * as serviceWorker from './serviceWorker';
+import { register as registerServiceWorker } from './serviceWorker.js';
 
 // Styling
 import './index.scss';
@@ -17,4 +17,4 @@ if (rootElement.hasChildNodes()) {
     render(<App />, rootElement);
 }
 
-serviceWorker.register();
+registerServiceWorker();

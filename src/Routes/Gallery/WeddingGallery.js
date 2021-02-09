@@ -54,7 +54,7 @@ export default class WeddingGallery extends React.Component {
                     />
                 ))}
                 <Helmet
-                    title="Grobund Fotografi - Bryllups Galleri"
+                    title="Grobund Fotografi - Fotograf i Ryomgård - Bryllups Galleri"
                     description="Galleri med et udvalg af bryllupsbilleder jeg har taget."
                 />
             </main>

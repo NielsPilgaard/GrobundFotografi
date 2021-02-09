@@ -132,7 +132,7 @@ export default class Prices extends React.Component {
                     </Row>
                     <br></br>
                     <Helmet
-                        title="Grobund Fotografi - Priser"
+                        title="Grobund Fotografi - Fotograf i Ryomgård - Priser"
                         description="Priser på alle slags fotografi som Grobund Fotografi tilbyder, f.eks bryllupsfotografi, børnefotografi og babyfotografi."
                     />
                 </div>

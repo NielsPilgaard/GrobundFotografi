@@ -19,7 +19,7 @@ const Contact = () => {
             </div>
             <ContactForm />
             <Helmet
-                title="Grobund Fotografi - Kontakt"
+                title="Grobund Fotografi - Fotograf i Ryomgård - Kontakt"
                 description="På denne side finder du en kontaktformular og kontaktoplysninger for Grobund Fotografi"
             />
         </main>

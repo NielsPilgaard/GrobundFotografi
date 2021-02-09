@@ -84,7 +84,7 @@ export default class KidsGallery extends React.Component {
                     />
                 ))}
                 <Helmet
-                    title="Grobund Fotografi - Børnefoto Galleri"
+                    title="Grobund Fotografi - Fotograf i Ryomgård - Børnefoto Galleri"
                     description="Galleri med et udvalg af børnebilleder jeg har taget."
                 />
             </main>

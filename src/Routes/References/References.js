@@ -65,7 +65,7 @@ export default class References extends React.Component {
                     ))}
                 </div>
                 <Helmet
-                    title="Grobund Fotografi - Referencer"
+                    title="Grobund Fotografi - Fotograf i Ryomgård - Referencer"
                     description="Her kan du læse lidt om hvad folk synes om Grobund."
                 />
             </>

@@ -24,8 +24,8 @@ const Home = () => {
                 </Button>
             </div>
             <Helmet
-                title="Grobund Fotografi"
-                description="Fotograf bosat i Ryomgård på Djursland, med en passion for natur-, stemnings-, og børnefotografi."
+                title="Grobund Fotografi - Fotograf i Ryomgård"
+                description="Stemningsfotograf bosat på Djursland. Mit mål er at fange de oprigtige smil og det øjeblik som mine kunder er i, uanset alder og begivenhed."
             />
         </main>
     );

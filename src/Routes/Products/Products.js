@@ -64,7 +64,7 @@ export default class Products extends React.Component {
                     </Card>
                 ))}
                 <Helmet
-                    title="Grobund Fotografi - Produkter"
+                    title="Grobund Fotografi - Fotograf i Ryomgård - Produkter"
                     description="Alle produkter designet af Grobund Fotografi, f.eks kalendere og fotobøger."
                 />
             </main>

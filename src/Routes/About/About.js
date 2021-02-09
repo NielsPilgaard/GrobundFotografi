@@ -18,7 +18,7 @@ export default class About extends React.Component {
         return (
             <main className="about">
                 <Helmet
-                    title="Grobund Fotografi - Om"
+                    title="Grobund Fotografi - Fotograf i Ryomgård - Om"
                     description="Hvad Grobund Fotografi står for, og hvordan det hele startede."
                 />
                 <div loading="lazy" className="om-grobund fade-in-5 p-5">

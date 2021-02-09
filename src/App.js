@@ -2,6 +2,8 @@ import React from 'react';
 import loadable from '@loadable/component';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
 import Layout from './Components/Layout';
+import { Helmet } from 'react-helmet';
+import CardImage from './Assets/Pictures/Kids/kids2.webp';
 
 const References = loadable(() => import('./Routes/References/References'));
 const Home = loadable(() => import('./Routes/Home/Home'));
@@ -36,6 +38,29 @@ export default class App extends React.Component {
                             <Route component={NatureGallery} exact path="/galleri-natur" />
                             <Route component={Home} exact path="/" />
                         </Switch>
+                        <Helmet>
+                            <title>
+                                {
+                                    'Grobund Fotografi - Fotograf i Ryomgård - Børnefoto, familiefoto, brylluper, gravidefoto'
+                                }
+                            </title>
+                            <meta
+                                name="description"
+                                content={
+                                    'Stemningsfotograf bosat på Djursland. Mit mål er at fange de oprigtige smil og det øjeblik som mine kunder er i, uanset alder og begivenhed.'
+                                }
+                            />
+                            <meta property="og:type" content={'website'} />
+                            <meta property="og:title" content={'Grobund Fotografi - Fotograf i Ryomgård'} />
+                            <meta
+                                property="og:description"
+                                content={
+                                    'Mit mål er at fange de oprigtige smil og det øjeblik som mine kunder er i, uanset alder og begivenhed.'
+                                }
+                            />
+                            <meta property="og:url" content={baseUrl} />
+                            <meta property="og:image" content={CardImage} />
+                        </Helmet>
                     </Layout>
                 </BrowserRouter>
             </>

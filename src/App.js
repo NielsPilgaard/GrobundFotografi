@@ -3,7 +3,7 @@ import loadable from '@loadable/component';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
 import Layout from './Components/Layout';
 import { Helmet } from 'react-helmet';
-import CardImage from './Assets/Pictures/Kids/kids2.webp';
+import CardImage from './Assets/Pictures/Kids/kids2.jpg';
 
 const References = loadable(() => import('./Routes/References/References'));
 const Home = loadable(() => import('./Routes/Home/Home'));

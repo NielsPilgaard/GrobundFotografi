@@ -1,20 +1,20 @@
 import React from 'react';
 
-import photo2 from './../../Assets/Pictures/Family/family2.webp';
-import photo3 from './../../Assets/Pictures/Family/family3.webp';
-import photo4 from './../../Assets/Pictures/Family/family4.webp';
-import photo6 from './../../Assets/Pictures/Family/family6.webp';
-import photo7 from './../../Assets/Pictures/Family/family7.webp';
-import photo8 from './../../Assets/Pictures/Family/family8.webp';
-import photo9 from './../../Assets/Pictures/Family/family9.webp';
-import photo10 from './../../Assets/Pictures/Family/family10.webp';
-import photo11 from './../../Assets/Pictures/Family/family11.webp';
+import photo2 from './../../Assets/Pictures/Family/family2.jpg';
+import photo3 from './../../Assets/Pictures/Family/family3.jpg';
+import photo4 from './../../Assets/Pictures/Family/family4.jpg';
+import photo6 from './../../Assets/Pictures/Family/family6.jpg';
+import photo7 from './../../Assets/Pictures/Family/family7.jpg';
+import photo8 from './../../Assets/Pictures/Family/family8.jpg';
+import photo9 from './../../Assets/Pictures/Family/family9.jpg';
+import photo10 from './../../Assets/Pictures/Family/family10.jpg';
+import photo11 from './../../Assets/Pictures/Family/family11.jpg';
 
-import photo12 from './../../Assets/Pictures/Family/family12.webp';
-import photo13 from './../../Assets/Pictures/Family/family13.webp';
-import photo14 from './../../Assets/Pictures/Family/family14.webp';
-import photo15 from './../../Assets/Pictures/Family/family15.webp';
-import photo16 from './../../Assets/Pictures/Family/family16.webp';
+import photo12 from './../../Assets/Pictures/Family/family12.jpg';
+import photo13 from './../../Assets/Pictures/Family/family13.jpg';
+import photo14 from './../../Assets/Pictures/Family/family14.jpg';
+import photo15 from './../../Assets/Pictures/Family/family15.jpg';
+import photo16 from './../../Assets/Pictures/Family/family16.jpg';
 
 import './Gallery.scss';
 

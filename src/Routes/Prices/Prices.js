@@ -5,16 +5,16 @@ import loadable from '@loadable/component';
 
 import './Prices.scss';
 
-import kids1 from './../../Assets/Pictures/Kids/kids24.webp';
-import kids2 from './../../Assets/Pictures/Pregnancy/pregnancy1.webp';
+import kids1 from './../../Assets/Pictures/Kids/kids24.jpg';
+import kids2 from './../../Assets/Pictures/Pregnancy/pregnancy1.jpg';
 
-import wedding1 from './../../Assets/Pictures/Wedding/wedding14.webp';
-import wedding2 from './../../Assets/Pictures/Wedding/wedding17.webp';
-import wedding3 from './../../Assets/Pictures/Wedding/wedding11.webp';
+import wedding1 from './../../Assets/Pictures/Wedding/wedding14.jpg';
+import wedding2 from './../../Assets/Pictures/Wedding/wedding17.jpg';
+import wedding3 from './../../Assets/Pictures/Wedding/wedding11.jpg';
 
-import family1 from './../../Assets/Pictures/Family/family6.webp';
+import family1 from './../../Assets/Pictures/Family/family6.jpg';
 import family2 from './../../Assets/Pictures/Family/family18.jpg';
-import family3 from './../../Assets/Pictures/Family/family16.webp';
+import family3 from './../../Assets/Pictures/Family/family16.jpg';
 
 const Helmet = loadable(() => import('./../../Components/Helmet'));
 

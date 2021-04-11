@@ -1,14 +1,14 @@
 import React from 'react';
 import loadable from '@loadable/component';
 
-import ReviewCecilie from './../../Assets/Pictures/Reviews/cecilie.webp';
-import ReviewGerd from './../../Assets/Pictures/Reviews/gerd.webp';
-import ReviewMette from './../../Assets/Pictures/Reviews/mette.webp';
-import ReviewMia from './../../Assets/Pictures/Reviews/mia.webp';
-import ReviewStephanie from './../../Assets/Pictures/Reviews/stephanie.webp';
-import ReviewTrine from './../../Assets/Pictures/Reviews/trine.webp';
-import ReviewVivian from './../../Assets/Pictures/Reviews/vivian.webp';
-import ReviewMaria from './../../Assets/Pictures/Reviews/maria.webp';
+import ReviewCecilie from './../../Assets/Pictures/Reviews/cecilie.jpg';
+import ReviewGerd from './../../Assets/Pictures/Reviews/gerd.jpg';
+import ReviewMette from './../../Assets/Pictures/Reviews/mette.jpg';
+import ReviewMia from './../../Assets/Pictures/Reviews/mia.jpg';
+import ReviewStephanie from './../../Assets/Pictures/Reviews/stephanie.jpg';
+import ReviewTrine from './../../Assets/Pictures/Reviews/trine.jpg';
+import ReviewVivian from './../../Assets/Pictures/Reviews/vivian.jpg';
+import ReviewMaria from './../../Assets/Pictures/Reviews/maria.jpg';
 
 import './References.scss';
 

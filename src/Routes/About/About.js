@@ -1,10 +1,10 @@
 import React from 'react';
 import Row from 'react-bootstrap/Row';
 
-import photo1 from './../../Assets/Pictures/Kids/kids7.webp';
-import photo2 from './../../Assets/Pictures/Kids/kids10.webp';
-import photo3 from './../../Assets/Pictures/Kids/kids25.webp';
-import photo4 from './../../Assets/Pictures/Wedding/wedding9.webp';
+import photo1 from './../../Assets/Pictures/Kids/kids7.jpg';
+import photo2 from './../../Assets/Pictures/Kids/kids10.jpg';
+import photo3 from './../../Assets/Pictures/Kids/kids25.jpg';
+import photo4 from './../../Assets/Pictures/Wedding/wedding9.jpg';
 
 import './About.scss';
 

@@ -3,6 +3,7 @@
         --stagger-delay: 100ms;
         gap: 15px;
         margin-bottom: 2rem;
+        overflow-x: hidden;
     }
     .gallery .card:hover {
         transform: scale(1.05);

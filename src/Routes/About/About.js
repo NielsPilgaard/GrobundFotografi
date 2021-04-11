@@ -21,7 +21,7 @@ export default class About extends React.Component {
                     title="Grobund Fotografi - Fotograf i Ryomgård - Om"
                     description="Hvad Grobund Fotografi står for, og hvordan det hele startede."
                 />
-                <div loading="lazy" className="om-grobund fade-in-5 p-5">
+                <div loading="lazy" className="om-grobund p-5">
                     <h2 className="sub-header">Om Grobund Fotografi</h2>
                     <p>Mit navn er Josefine;</p>
                     <p>Jeg er mor, kone, naturelsker og indehaveren af Grobund Fotografi.</p>
@@ -31,8 +31,8 @@ export default class About extends React.Component {
                         erfaring indenfor pædagogfaget.
                     </p>
                 </div>
-                <img loading="lazy" className="img-fluid image1 fade-in-5" src={photo1} alt={''} />
-                <div loading="lazy" className="livsrejser fade-in-10 p-5">
+                <img loading="lazy" className="img-fluid image1" src={photo1} alt={''} />
+                <div loading="lazy" className="livsrejser p-5">
                     <h2 className="sub-header">Dokumenterede livsrejser</h2>
                     <p>Fotografi af mennesker handler for mig om at skabe noget ærligt.</p>
                     <p>
@@ -45,9 +45,9 @@ export default class About extends React.Component {
                     </p>
                 </div>
 
-                <img loading="lazy" className="img-fluid fade-in-10 image2" src={photo2} alt={''} />
+                <img loading="lazy" className="img-fluid image2" src={photo2} alt={''} />
 
-                <div loading="lazy" className="naturen fade-in-10 p-5">
+                <div loading="lazy" className="naturen p-5">
                     <h2 className="sub-header">Naturen som inspiration</h2>
                     <p>
                         Ved en fotosession hos mig, vil I opleve at naturen også spiller en stor rolle. Den fungerer som
@@ -61,9 +61,9 @@ export default class About extends React.Component {
                     </p>
                 </div>
 
-                <img loading="lazy" className="img-fluid fade-in-10 image3" src={photo3} alt={''} />
+                <img loading="lazy" className="img-fluid image3" src={photo3} alt={''} />
 
-                <div loading="lazy" className="hvorfor-grobund fade-in-15 p-5">
+                <div loading="lazy" className="hvorfor-grobund p-5">
                     <h2 className="sub-header">Hvorfor vælge Grobund Fotografi</h2> <hr></hr>
                     <p>
                         Hos Grobund Fotografi får du ærlige, naturlige - ikke opstillede billeder i høj kvalitet til en
@@ -90,7 +90,7 @@ export default class About extends React.Component {
                         </Button>
                     </Row>
                 </div>
-                <img loading="lazy" className="img-fluid fade-in-15 image4" src={photo4} alt={''} />
+                <img loading="lazy" className="img-fluid image4" src={photo4} alt={''} />
             </main>
         );
     }

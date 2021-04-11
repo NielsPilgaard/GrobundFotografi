@@ -8,7 +8,7 @@ import Carousel4 from './../Assets/Pictures/Kids/kids4.webp';
 export default class PhotoCarousel extends React.Component {
     render() {
         return (
-            <Carousel indicators={false} controls={false} className="carousel">
+            <Carousel indicators={false} controls={false} className="carousel" interval={2000}>
                 <Carousel.Item>
                     <img className="w-100 active" src={Carousel1} alt="First slide" />
                 </Carousel.Item>

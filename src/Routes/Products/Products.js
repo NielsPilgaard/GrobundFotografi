@@ -3,8 +3,8 @@ import loadable from '@loadable/component';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 
-import tempCalendar from '../../Assets/kalender-temp.jpg';
-import bogCalendar from '../../Assets/bog-temp.jpg';
+// import tempCalendar from '../../Assets/kalender-temp.jpg';
+// import bogCalendar from '../../Assets/bog-temp.jpg';
 
 import './Products.scss';
 
@@ -16,21 +16,21 @@ const data = {
             name: 'Fordybelsens Sti',
             short_description: 'En viljestærk sti med naturen som vejviser.',
             description: '',
-            coverPhoto: tempCalendar,
+            // coverPhoto: tempCalendar,
             photos: ''
         },
         {
             name: 'Lysets Sti',
             short_description: 'En kærlig og lys sti med naturen som vejviser.',
             description: '',
-            coverPhoto: tempCalendar,
+            // coverPhoto: tempCalendar,
             photos: ''
         },
         {
             name: 'Ved dine fødder',
             short_description: 'Naturopdagelse for alle aldre',
             description: '',
-            coverPhoto: bogCalendar,
+            // coverPhoto: bogCalendar,
             photos: ''
         }
     ]

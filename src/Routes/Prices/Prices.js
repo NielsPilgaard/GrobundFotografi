@@ -24,7 +24,7 @@ export default class Prices extends React.Component {
             <>
                 <h1 className="header">Priser</h1>
                 <hr className="bg-success"></hr>
-                <div className="service-group mx-auto fade-in-5">
+                <div className="service-group mx-auto">
                     <Row className="justify-content-center">
                         <Card loading="lazy" className="card-w-33">
                             <Card.Img variant="top" src={kids1} alt="top-image" />
@@ -32,7 +32,7 @@ export default class Prices extends React.Component {
                                 <Card.Title>Børn</Card.Title>
                                 <Card.Text>
                                     <li className="price-tag">1 time til 700kr.</li>
-                                    <li>20+ billeder i eget personlige online galleri.</li>
+                                    <li>20 billeder i eget personlige online galleri.</li>
                                     <li>200kr. i tillæg for hvert barn udover det første.</li>
                                 </Card.Text>
                             </Card.Body>
@@ -43,7 +43,7 @@ export default class Prices extends React.Component {
                                 <Card.Title>Gravide</Card.Title>
                                 <Card.Text>
                                     <li className="price-tag">1 time til 700kr.</li>
-                                    <li>20+ billeder i eget personlige online galleri.</li>
+                                    <li>20 billeder i eget personlige online galleri.</li>
                                     <li>200kr. i tillæg hvis partner eller barn skal med på billederne.</li>
                                 </Card.Text>
                             </Card.Body>
@@ -56,7 +56,7 @@ export default class Prices extends React.Component {
                                 <Card.Title>Bryllupspakke 1</Card.Title>
                                 <Card.Text>
                                     <li className="price-tag">2 timer til 2000kr.</li>
-                                    <li>100+ billeder, i eget personlige online galleri.</li>
+                                    <li>40 billeder, i eget personlige online galleri.</li>
                                     <li>Denne pakke er beregnet til selve ceremonien i kirken eller ved en vielse.</li>
                                     <small className="text-muted">
                                         Denne pakke kan også bestilles til dåb/konfirmation.
@@ -70,7 +70,7 @@ export default class Prices extends React.Component {
                                 <Card.Title>Bryllupspakke 2</Card.Title>
                                 <Card.Text>
                                     <li className="price-tag">3 timer til 3500kr.</li>
-                                    <li>100+ billeder, i eget personlige online galleri.</li>
+                                    <li>60 billeder, i eget personlige online galleri.</li>
                                     <li>
                                         Denne pakke er god til at få billeder af vielsen og eventuelt parbilleder
                                         bagefter.
@@ -87,7 +87,7 @@ export default class Prices extends React.Component {
                                 <Card.Title>Bryllupspakke 3</Card.Title>
                                 <Card.Text>
                                     <li className="price-tag">5 timer til 5000kr.</li>
-                                    <li>100+ billeder, i eget personlige online galleri.</li>
+                                    <li>100 billeder, i eget personlige online galleri.</li>
                                     <li>
                                         Denne pakke er god til at ”følge dagen” og få billeder af både vielse og fest.
                                     </li>
@@ -104,8 +104,8 @@ export default class Prices extends React.Component {
                             <Card.Body>
                                 <Card.Title>Familiepakke 1</Card.Title>
                                 <Card.Text>
-                                    <li className="price-tag">30 minutter til 700kr.</li>
-                                    <li>20+ billeder i eget personlige online galleri.</li>
+                                    <li className="price-tag">30 minutter til 900kr.</li>
+                                    <li>10 billeder i eget personlige online galleri.</li>
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -114,8 +114,8 @@ export default class Prices extends React.Component {
                             <Card.Body>
                                 <Card.Title>Familiepakke 2</Card.Title>
                                 <Card.Text>
-                                    <li className="price-tag">1 timer til 900kr.</li>
-                                    <li>30+ billeder i eget personlige online galleri.</li>
+                                    <li className="price-tag">1 timer til 1300kr.</li>
+                                    <li>20 billeder i eget personlige online galleri.</li>
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -124,8 +124,8 @@ export default class Prices extends React.Component {
                             <Card.Body>
                                 <Card.Title>Familiepakke 3</Card.Title>
                                 <Card.Text>
-                                    <li className="price-tag">2 timer til 1500kr.</li>
-                                    <li>40+ billeder i eget personlige online galleri.</li>
+                                    <li className="price-tag">2 timer til 1800kr.</li>
+                                    <li>30 billeder i eget personlige online galleri.</li>
                                 </Card.Text>
                             </Card.Body>
                         </Card>

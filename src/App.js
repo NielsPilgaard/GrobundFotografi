@@ -45,7 +45,7 @@ export default class App extends React.Component {
                             <meta
                                 name="description"
                                 content={
-                                    'Stemningsfotograf bosat på Djursland. Mit mål er at fange de oprigtige smil og det øjeblik som mine kunder er i, uanset alder og begivenhed.'
+                                    'Børnefotograf bosat på Djursland. Mit mål er at fange de oprigtige smil og det øjeblik som mine kunder er i, uanset alder og begivenhed.'
                                 }
                             />
                             <meta property="og:type" content={'website'} />

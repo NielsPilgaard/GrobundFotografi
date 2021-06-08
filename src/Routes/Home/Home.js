@@ -1,6 +1,6 @@
 import React from 'react';
 import loadable from '@loadable/component';
-import Logo from './../../Assets/Logo/Logo02-cropped.png';
+import Logo from './../../Assets/Logo/front-logo.png';
 import Button from 'react-bootstrap/Button';
 
 import './Home.scss';

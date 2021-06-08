@@ -40,9 +40,6 @@ export default class NavMenu extends React.Component {
                                 <NavDropdown.Item as={Link} to="/galleri-børn">
                                     Børn
                                 </NavDropdown.Item>
-                                <NavDropdown.Item as={Link} to="/galleri-bryllup">
-                                    Bryllup
-                                </NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to="/galleri-familie">
                                     Familie
                                 </NavDropdown.Item>

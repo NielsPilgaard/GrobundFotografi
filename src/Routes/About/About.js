@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import photo1 from './../../Assets/Pictures/Kids/kids7.jpg';
 import photo2 from './../../Assets/Pictures/Kids/kids10.jpg';
 import photo3 from './../../Assets/Pictures/Kids/kids25.jpg';
-import photo4 from './../../Assets/Pictures/Wedding/wedding9.jpg';
+import photo4 from './../../Assets/Pictures/Pregnancy/pregnancy6.jpg';
 
 import './About.scss';
 

@@ -8,7 +8,6 @@ import CardImage from './Assets/Pictures/Kids/kids2.jpg';
 const References = loadable(() => import('./Routes/References/References'));
 const Home = loadable(() => import('./Routes/Home/Home'));
 const KidsGallery = loadable(() => import('./Routes/Gallery/KidsGallery'));
-const WeddingGallery = loadable(() => import('./Routes/Gallery/WeddingGallery'));
 const NatureGallery = loadable(() => import('./Routes/Gallery/NatureGallery'));
 const FamilyGallery = loadable(() => import('./Routes/Gallery/FamilyGallery'));
 const About = loadable(() => import('./Routes/About/About'));
@@ -33,7 +32,6 @@ export default class App extends React.Component {
                             <Route component={References} exact path="/referencer" />
                             <Route component={Contact} exact path="/kontakt" />
                             <Route component={KidsGallery} exact path="/galleri-børn" />
-                            <Route component={WeddingGallery} exact path="/galleri-bryllup" />
                             <Route component={FamilyGallery} exact path="/galleri-familie" />
                             <Route component={NatureGallery} exact path="/galleri-natur" />
                             <Route component={Home} exact path="/" />
